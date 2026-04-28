@@ -8,8 +8,8 @@
 import { LenisScroll } from "./interactions/base/scroll";
 import "./styles/index.scss";
 
-const projName = ref("New website");
-const projDesc = ref("Bootstrapped with the Nuxt3 GoodyPlate");
+const projName = ref("ASH Entertainment");
+const projDesc = ref("ASH Entertainment is a creator-led collective that collaborates with leading game studios to bring video game worlds to life through video production, immersive experiences, media, and custom collectibles.");
 const config = useRuntimeConfig();
 onMounted(() => {
   const appId = config.public.apolloAppId;

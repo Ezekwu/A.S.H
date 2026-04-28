@@ -5,6 +5,7 @@ export default defineNuxtConfig({
   compatibilityDate: "2024-04-03",
   devtools: { enabled: true },
   runtimeConfig: {
+    resendApiKey: process.env.RESEND_API_KEY,
     public: {
       apolloAppId: process.env.APOLLO_APP_ID,
     },
@@ -17,14 +18,14 @@ export default defineNuxtConfig({
       "nuxt-mail",
       {
         message: {
-          to: "lilmalixx@gmail.com",
+          to: "ezekwujerry@gmail.com",
         },
         smtp: {
           host: "smtp.resend.com",
           port: 465,
           auth: {
             user: "resend",
-            pass: "re_CX3DMHEU_4br2qKHySSB8kWjB1KcJKq71",
+            pass: process.env.RESEND_API_KEY,
           },
         },
       },

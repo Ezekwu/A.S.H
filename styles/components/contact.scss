@@ -3,6 +3,7 @@
   padding: 14rem 10rem 10rem 10rem;
   gap: 13.5rem;
   background: #171717;
+
   @include media("<phone") {
     flex-direction: column;
     padding: 8rem 2rem 10rem 2rem;
@@ -18,7 +19,8 @@
   font-size: 1.2rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 100%; /* 1.2rem */
+  line-height: 100%;
+  /* 1.2rem */
   letter-spacing: 0.384rem;
   text-transform: uppercase;
   width: 20.5rem;
@@ -40,8 +42,10 @@
   font-size: 4.8rem;
   font-style: normal;
   font-weight: 600;
-  line-height: 100%; /* 4.8rem */
+  line-height: 100%;
+  /* 4.8rem */
   letter-spacing: -0.096rem;
+
   @include media("<phone") {
     width: 35rem;
     letter-spacing: -0.064rem;
@@ -57,6 +61,7 @@
   align-items: flex-start;
   gap: 4.8rem;
   background: #1e1e1e;
+
   @include media("<phone") {
     width: 35rem;
     padding: 3.2rem;
@@ -64,15 +69,15 @@
   }
 }
 
-.form > div {
+.form>div {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 2.4rem;
+  gap: 4rem;
   align-self: stretch;
 }
 
-#name {
+.contact_input {
   display: flex;
   padding: 2rem 2.4rem;
   align-items: center;
@@ -85,7 +90,8 @@
   font-size: 1.6rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 140%; /* 2.24rem */
+  line-height: 140%;
+  /* 2.24rem */
   opacity: 0.65;
 }
 
@@ -97,8 +103,51 @@
     font-size: 1.5rem;
     font-style: normal;
     font-weight: 500;
-    line-height: 100%; /* 1.5rem */
+    line-height: 100%;
+    /* 1.5rem */
     display: flex;
     align-items: center;
   }
+}
+
+.form .btn {
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.contact_error {
+  color: #ff4d4f;
+  background: rgba(255, 77, 79, 0.1);
+  padding: 1rem 1.6rem;
+  border-radius: 4px;
+  font-size: 1.4rem;
+  width: 100%;
+}
+
+.contact_success {
+  color: #52c41a;
+  background: rgba(82, 196, 26, 0.1);
+  padding: 1rem 1.6rem;
+  border-radius: 4px;
+  font-size: 1.4rem;
+  width: 100%;
+}
+
+.input_group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  align-self: stretch;
+}
+
+.field_error {
+  color: #ff4d4f;
+  font-size: 1.2rem;
+  margin-left: 0.4rem;
+}
+
+.input_error {
+  border-color: #ff4d4f !important;
+  opacity: 1 !important;
 }
