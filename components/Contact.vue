@@ -68,6 +68,20 @@
               :disabled="status === 'loading'"
             />
           </div>
+
+          <div class="input_group">
+            <textarea
+              v-model="form.message"
+              id="contact-message"
+              name="message"
+              class="contact_input"
+              :class="{ 'input_error': errors.message }"
+              placeholder="Message"
+              :disabled="status === 'loading'"
+              required
+            />
+            <span v-if="errors.message" class="field_error">{{ errors.message }}</span>
+          </div>
         </div>
 
         <p v-if="errorMsg" class="contact_error">{{ errorMsg }}</p>
@@ -94,19 +108,22 @@ const form = reactive({
   email: "",
   company: "",
   projectType: "",
+  message: "",
 });
 
 const errors = reactive({
   name: "",
   email: "",
   company: "",
+  message: "",
 });
 
 const contactSchema = z.object({
   name: z.string().min(1, "Name is required"),
   email: z.string().min(1, "Email is required").email("Invalid email format"),
-  company: z.string().min(1, "Company is required"),
+  company: z.string().optional(),
   projectType: z.string().optional(),
+  message: z.string().min(1, "Message is required"),
 });
 
 type Status = "idle" | "loading" | "success" | "error";
@@ -118,6 +135,7 @@ async function handleSubmit() {
   errors.name = "";
   errors.email = "";
   errors.company = "";
+  errors.message = "";
   errorMsg.value = "";
 
   // Validate form
@@ -136,13 +154,17 @@ async function handleSubmit() {
   status.value = "loading";
 
   try {
-    await $fetch("/api/contact", {
+    await $fetch("https://formspree.io/f/xwvypkjw", {
       method: "POST",
+      headers: {
+        Accept: "application/json",
+      },
       body: {
         name: form.name,
         email: form.email,
         company: form.company,
         projectType: form.projectType,
+        message: form.message,
       },
     });
 
@@ -152,14 +174,31 @@ async function handleSubmit() {
     form.email = "";
     form.company = "";
     form.projectType = "";
+    form.message = "";
 
     setTimeout(() => {
       if (status.value === "success") status.value = "idle";
     }, 5000);
   } catch (err: any) {
     status.value = "error";
-    errorMsg.value =
-      err?.data?.statusMessage ?? "Something went wrong. Please try again.";
+
+    const serverErrors = err?.data?.errors;
+    if (Array.isArray(serverErrors) && serverErrors.length) {
+      for (const e of serverErrors) {
+        const field = e?.field as keyof typeof errors | undefined;
+        const message = typeof e?.message === "string" ? e.message : "";
+        if (field && field in errors && message) errors[field] = message;
+      }
+      if (!Object.values(errors).some(Boolean)) {
+        errorMsg.value = "Something went wrong. Please try again.";
+      }
+    } else {
+      errorMsg.value =
+        err?.data?.error ??
+        err?.data?.message ??
+        err?.data?.statusMessage ??
+        "Something went wrong. Please try again.";
+    }
 
     setTimeout(() => {
       errorMsg.value = "";
