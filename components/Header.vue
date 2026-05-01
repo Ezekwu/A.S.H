@@ -14,9 +14,9 @@
         </h3>
       </NuxtLink>
     </div>
-    <NuxtLink href="/" class="header_profile">
+    <div class="header_profile">
       <div class="menuh">
-        <img src="/images/artsvg.svg" alt="" />
+        <NuxtLink href="/"><img src="/images/artsvg.svg" alt="" /></NuxtLink>
         <img
           class="menuimg"
           data-mobile
@@ -34,7 +34,7 @@
           @click="active = true"
         />
       </div>
-    </NuxtLink>
+    </div>
     <div>
       <NuxtLink @click="scrollTo('#servicesid')" target="_blank">
         <h3 class="header_text">
