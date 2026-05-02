@@ -1,7 +1,17 @@
 <template>
   <section class="button">
-    <NuxtLink href="/contacts" target="_blank">
-      <button class="btn bd">LET’S COLLABORATE</button>
+    <template v-if="isSubmit">
+      <button class="btn bd" type="submit" :disabled="disabled">
+        {{ label }}
+      </button>
+      <div class="colors">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </template>
+    <NuxtLink v-else :href="href" :target="target">
+      <button class="btn bd">{{ label }}</button>
       <div class="colors">
         <div></div>
         <div></div>
@@ -12,7 +22,26 @@
 </template>
 
 <script setup lang="ts">
-function scrollTo(id: string) {
-  window.lenis.scrollTo(id);
-}
+defineProps({
+  label: {
+    type: String,
+    default: "LET’S COLLABORATE",
+  },
+  isSubmit: {
+    type: Boolean,
+    default: false,
+  },
+  disabled: {
+    type: Boolean,
+    default: false,
+  },
+  href: {
+    type: String,
+    default: "/contacts",
+  },
+  target: {
+    type: String,
+    default: "_blank",
+  },
+});
 </script>

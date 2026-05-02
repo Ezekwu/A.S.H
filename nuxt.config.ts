@@ -13,21 +13,5 @@ export default defineNuxtConfig({
     "@nuxtjs/mdc",
     "@nuxt/image",
     "nuxt-svgo",
-    [
-      "nuxt-mail",
-      {
-        message: {
-          to: "lilmalixx@gmail.com",
-        },
-        smtp: {
-          host: "smtp.resend.com",
-          port: 465,
-          auth: {
-            user: "resend",
-            pass: "re_CX3DMHEU_4br2qKHySSB8kWjB1KcJKq71",
-          },
-        },
-      },
-    ],
   ],
 })
