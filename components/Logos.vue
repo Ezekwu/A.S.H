@@ -15,7 +15,7 @@
         <img src="/images/vii.webp" alt="" class="logo_img" />
         <img src="/images/viii.webp" alt="" class="logo_img" />
         <img src="/images/ix.webp" alt="" class="logo_img" />
-        <img src="/images/x.webp" alt="" class="logo_img" />
+        <img src="/images/x.webp" alt="" class="logo_img" data-desktop />
         <img src="/images/xi.webp" alt="" class="logo_img" />
         <!-- <img src="/images/v.webp" alt="" class="logo_img" data-mobile /> -->
       </div>
