@@ -147,12 +147,12 @@
 
 
       <div class="assassin_images_category">
-        <img src="/images/l1.webp" alt="" data-desktop />
-        <img src="/images/l2.webp" alt="" data-desktop />
-        <img src="/images/l3.webp" alt="" data-desktop />
-        <img src="/images/l1.webp" alt="" data-mobile />
-        <img src="/images/l2.webp" alt="" data-mobile />
-        <img src="/images/l3.webp" alt="" data-mobile />
+        <img src="/images/doom-big-image-1.webp" alt="" data-desktop />
+        <img src="/images/doom-big-image-2.webp" alt="" data-desktop />
+        <img src="/images/doom-big-image-3.webp" alt="" data-desktop />
+        <img src="/images/doom-big-image-1.webp" alt="" data-mobile />
+        <img src="/images/doom-big-image-2.webp" alt="" data-mobile />
+        <img src="/images/doom-big-image-3.webp" alt="" data-mobile />
       </div>
       <div class="result">
         <h2 class="result_header">[RESULTS]</h2>

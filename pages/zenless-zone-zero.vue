@@ -55,9 +55,9 @@
 
           This build fused real-world blacksmithing techniques with the stylized world of ZZZ.</p>
           <div class="zenless-image-grid">
-            <img src="/images/s1.webp" alt="" />
-            <img src="/images/s2.webp" alt="" />
-            <img src="/images/s3.webp" alt="" />
+            <img src="/images/zenless-grid-image-1.webp" alt="" />
+            <img src="/images/zenless-grid-image-2 .webp" alt="" />
+            <img src="/images/zenless-grid-image-3.webp" alt="" />
           </div>
         </div>
       </div>
@@ -156,12 +156,12 @@
 
 
       <div class="assassin_images_category">
-        <img src="/images/l1.webp" alt="" data-desktop />
-        <img src="/images/l2.webp" alt="" data-desktop />
-        <img src="/images/l3.webp" alt="" data-desktop />
-        <img src="/images/l1.webp" alt="" data-mobile />
-        <img src="/images/l2.webp" alt="" data-mobile />
-        <img src="/images/l3.webp" alt="" data-mobile />
+        <img src="/images/zenless-big-image-1.webp" alt="" data-desktop />
+        <img src="/images/zenless-big-image-2.webp" alt="" data-desktop />
+        <img src="/images/zenless-big-image-3.webp" alt="" data-desktop />
+        <img src="/images/zenless-big-image-1.webp" alt="" data-mobile />
+        <img src="/images/zenless-big-image-2.webp" alt="" data-mobile />
+        <img src="/images/zenless-big-image-3.webp" alt="" data-mobile />
       </div>
       <div class="assassin_related">
         <h2>Related Work</h2>

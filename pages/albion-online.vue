@@ -163,12 +163,12 @@
       </div>
 
       <div class="assassin_images_category">
-        <img src="/images/l1.webp" alt="" data-desktop />
-        <img src="/images/l2.webp" alt="" data-desktop />
-        <img src="/images/l3.webp" alt="" data-desktop />
-        <img src="/images/l1.webp" alt="" data-mobile />
-        <img src="/images/l2.webp" alt="" data-mobile />
-        <img src="/images/l3.webp" alt="" data-mobile />
+        <img src="/images/albion-big-image-1.webp" alt="" data-desktop />
+        <img src="/images/albion-big-image-2.webp" alt="" data-desktop />
+        <img src="/images/albion-big-image-3.webp" alt="" data-desktop />
+        <img src="/images/albion-big-image-1.webp" alt="" data-mobile />
+        <img src="/images/albion-big-image-2.webp" alt="" data-mobile />
+        <img src="/images/albion-big-image-3.webp" alt="" data-mobile />
       </div>
       <div class="assassin_related">
         <h2>Related Work</h2>
