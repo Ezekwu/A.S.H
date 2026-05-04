@@ -46,12 +46,27 @@
 .logo_logo > div {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 9.2rem;
 
   @include media("<phone") {
     // display: inline-flex;
     flex-wrap: wrap;
     gap: 5.7rem;
+  }
+}
+
+[data-mobile] {
+  display: none;
+  @include media("<phone") {
+    display: block;
+  }
+}
+
+[data-desktop] {
+  display: block;
+  @include media("<phone") {
+    display: none;
   }
 }
 
