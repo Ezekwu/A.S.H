@@ -3,6 +3,7 @@
   min-width: 100vw;
   background: #000;
   padding-top: 10.4rem;
+
   @include media("<phone") {
     width: 39rem;
   }
@@ -14,6 +15,7 @@
   align-items: flex-start;
   gap: 15rem;
   border-bottom: 1px solid #171717;
+
   @include media("<phone") {
     padding: 6rem 2rem 8rem 2rem;
     gap: 6rem;
@@ -29,21 +31,24 @@
   align-self: stretch;
 }
 
-.assasin_left > p {
+.assasin_left>p {
   color: #fff;
   font-family: "Haas Grot Disp Trial";
   font-size: 1.6rem;
   font-style: normal;
   font-weight: 500;
-  line-height: 100%; /* 1.6rem */
+  line-height: 100%;
+  /* 1.6rem */
 }
+
 .assasin_left h3 {
   color: rgba(255, 255, 255, 0.65);
   font-family: "Haas Grot Disp Trial";
   font-size: 1.4rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 140%; /* 1.96rem */
+  line-height: 140%;
+  /* 1.96rem */
 }
 
 .assasin_left h4 {
@@ -52,7 +57,8 @@
   font-size: 1.6rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 140%; /* 2.24rem */
+  line-height: 140%;
+  /* 2.24rem */
 }
 
 .assassin_right {
@@ -61,17 +67,20 @@
   font-size: 12.8rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 90%; /* 11.52rem */
+  line-height: 90%;
+  /* 11.52rem */
   letter-spacing: -0.256rem;
   text-transform: uppercase;
   width: 97.2rem;
+
   @include media("<phone") {
     color: #fff;
     font-family: "Bebas Neue";
     font-size: 6.4rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 90%; /* 5.76rem */
+    line-height: 90%;
+    /* 5.76rem */
     letter-spacing: -0.128rem;
     text-transform: uppercase;
     width: 35rem;
@@ -81,6 +90,7 @@
 .assassin_video {
   width: 151.3rem;
   height: 67rem;
+
   @include media("<phone") {
     width: 39rem;
     height: 25.3rem;
@@ -94,6 +104,7 @@
   gap: 17.4rem;
   align-self: stretch;
   border-bottom: 1px solid #171717;
+
   @include media("<phone") {
     display: flex;
     padding: 10rem 2rem;
@@ -110,8 +121,10 @@
   font-size: 1.2rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 100%; /* 1.2rem */
+  line-height: 100%;
+  /* 1.2rem */
   letter-spacing: 0.384rem;
+
   @include media("<phone") {
     font-size: 1.2rem;
   }
@@ -127,9 +140,11 @@
   font-size: 3.2rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 120%; /* 3.84rem */
+  line-height: 120%;
+  /* 3.84rem */
   letter-spacing: -0.032rem;
   width: 97.3rem;
+
   @include media("<phone") {
     width: 35rem;
     color: #fff;
@@ -145,6 +160,7 @@
   gap: 17.4rem;
   align-self: stretch;
   border-bottom: 1px solid #171717;
+
   @include media("<phone") {
     display: flex;
     padding: 10rem 2rem;
@@ -161,8 +177,10 @@
   font-size: 1.2rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 100%; /* 1.2rem */
+  line-height: 100%;
+  /* 1.2rem */
   letter-spacing: 0.384rem;
+
   @include media("<phone") {
     font-size: 1.2rem;
   }
@@ -178,9 +196,11 @@
   font-size: 3.2rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 120%; /* 3.84rem */
+  line-height: 120%;
+  /* 3.84rem */
   letter-spacing: -0.032rem;
   width: 97.3rem;
+
   @include media("<phone") {
     width: 35rem;
     color: #fff;
@@ -199,6 +219,7 @@
   width: 151.2rem;
   height: 67rem;
   background: #2f2f2f;
+
   @include media("<phone") {
     width: 39rem;
     height: 25rem;
@@ -212,6 +233,7 @@
   gap: 17.4rem;
   align-self: stretch;
   border-bottom: 1px solid #171717;
+
   @include media("<phone") {
     display: flex;
     padding: 10rem 2rem;
@@ -228,8 +250,10 @@
   font-size: 1.2rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 100%; /* 1.2rem */
+  line-height: 100%;
+  /* 1.2rem */
   letter-spacing: 0.384rem;
+
   @include media("<phone") {
     font-size: 1.2rem;
   }
@@ -247,8 +271,6 @@
   gap: 2rem;
   flex: 1 0 0;
 
-  @include media("<phone") {
-  }
 }
 
 .assassin_takeaway_right h2 {
@@ -257,9 +279,11 @@
   font-size: 3.2rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 120%; /* 3.84rem */
+  line-height: 120%;
+  /* 3.84rem */
   letter-spacing: -0.032rem;
   width: 97.2rem;
+
   @include media("<phone") {
     font-size: 2.4rem;
     letter-spacing: -0.024rem;
@@ -274,6 +298,7 @@
   align-items: flex-start;
   gap: 10rem;
   align-self: stretch;
+
   @include media("<phone") {
     display: flex;
     padding: 8rem 0;
@@ -284,15 +309,17 @@
   }
 }
 
-.assassin_related > h2 {
+.assassin_related>h2 {
   color: #fff;
   font-family: "Haas Grot Disp Trial";
   font-size: 4.8rem;
   font-style: normal;
   font-weight: 500;
-  line-height: 100%; /* 4.8rem */
+  line-height: 100%;
+  /* 4.8rem */
   letter-spacing: -0.096rem;
   margin: auto;
+
   @include media("<phone") {
     font-size: 3.2rem;
     letter-spacing: -0.064rem;
@@ -323,10 +350,11 @@
   gap: 2rem;
 }
 
-.assassin_related_content_div > img {
+.assassin_related_content_div>img {
   width: 41.6rem;
   height: 34.5rem;
   align-self: stretch;
+
   @include media("<phone") {
     width: 35rem;
     height: 34.5rem;
@@ -334,17 +362,20 @@
   }
 }
 
-.assassin_related_content_div > p {
+.assassin_related_content_div>p {
   color: #fff;
   font-family: "Haas Grot Disp Trial";
   font-size: 2.4rem;
   font-style: normal;
   font-weight: 500;
-  line-height: 140%; /* 3.36rem */
+  line-height: 140%;
+  /* 3.36rem */
   letter-spacing: -0.024rem;
+
   @include media("<phone") {
     font-size: 2.4rem;
-    line-height: 140%; /* 3.36rem */
+    line-height: 140%;
+    /* 3.36rem */
     letter-spacing: -0.024rem;
   }
 }
@@ -367,7 +398,7 @@
   flex-wrap: wrap;
 }
 
-.assassin_process > div:nth-of-type(1) {
+.assassin_process>div:nth-of-type(1) {
   display: flex;
   width: 29.2333rem;
   flex-direction: column;
@@ -375,7 +406,7 @@
   gap: 3.2rem;
 }
 
-.assassin_process > div:nth-of-type(2) {
+.assassin_process>div:nth-of-type(2) {
   display: flex;
   width: 29.2333rem;
   flex-direction: column;
@@ -383,7 +414,7 @@
   gap: 3.2rem;
 }
 
-.assassin_process > div:nth-of-type(3) {
+.assassin_process>div:nth-of-type(3) {
   display: flex;
   width: 29.2333rem;
   flex-direction: column;
@@ -391,13 +422,14 @@
   gap: 3.2rem;
 }
 
-.assassin_process > div > h3 {
+.assassin_process>div>h3 {
   color: #fff;
   font-family: "Haas Grot Disp Trial";
   font-size: 3.2rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 150%; /* 4.8rem */
+  line-height: 150%;
+  /* 4.8rem */
   display: flex;
   width: 6rem;
   height: 6rem;
@@ -407,6 +439,7 @@
   gap: 1rem;
   border: 1px solid rgba(255, 255, 255, 0.5);
   background: rgba(255, 255, 255, 0.16);
+
   @include media("<phone") {
     display: flex;
     width: 4rem;
@@ -421,25 +454,29 @@
     font-size: 2rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 150%; /* 3rem */
+    line-height: 150%;
+    /* 3rem */
   }
 }
 
-.assassin_process > div > h2 {
+.assassin_process>div>h2 {
   color: #fff;
   font-family: "Haas Grot Disp Trial";
   font-size: 4rem;
   font-style: normal;
   font-weight: 500;
-  line-height: 100%; /* 4rem */
+  line-height: 100%;
+  /* 4rem */
   width: 27rem;
+
   @include media("<phone") {
     color: #fff;
     font-family: "Haas Grot Disp Trial";
     font-size: 2.4rem;
     font-style: normal;
     font-weight: 500;
-    line-height: 100%; /* 2.4rem */
+    line-height: 100%;
+    /* 2.4rem */
   }
 }
 
@@ -449,6 +486,7 @@
   justify-content: center;
   align-items: flex-start;
   gap: 18.3563rem;
+
   @include media("<phone") {
     display: flex;
     padding: 10rem 2rem;
@@ -465,9 +503,11 @@
   font-size: 1.2rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 100%; /* 1.2rem */
+  line-height: 100%;
+  /* 1.2rem */
   letter-spacing: 0.384rem;
   white-space: pre;
+
   @include media("<phone") {
     color: #fff;
     leading-trim: both;
@@ -476,7 +516,8 @@
     font-size: 1.2rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 100%; /* 1.2rem */
+    line-height: 100%;
+    /* 1.2rem */
     letter-spacing: 0.384rem;
   }
 }
@@ -486,20 +527,23 @@
   flex-direction: column;
 }
 
-.new_assasin_div > p {
+.new_assasin_div>p {
   color: #fff;
   font-family: "Haas Grot Disp Trial";
   font-size: 3.2rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 150%; /* 4.8rem */
+  line-height: 150%;
+
+  /* 4.8rem */
   @include media("<phone") {
     color: #fff;
     font-family: "Haas Grot Disp Trial";
     font-size: 2.4rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 150%; /* 3.6rem */
+    line-height: 150%;
+    /* 3.6rem */
     width: 35rem;
   }
 }
@@ -512,6 +556,7 @@
   width: 96.3rem;
   margin-top: 6rem;
   margin-bottom: 8rem;
+
   @include media("<phone") {
     margin-top: 6rem;
     margin-bottom: 10rem;
@@ -521,40 +566,44 @@
   }
 }
 
-.new_asasssin_firstimg > img:nth-of-type(1) {
+.new_asasssin_firstimg>img:nth-of-type(1) {
   width: 50.4rem;
   height: 26.8rem;
   flex-shrink: 0;
+
   @include media("<phone") {
     width: 35rem;
     height: 28.6rem;
   }
 }
 
-.new_asasssin_firstimg > img:nth-of-type(2) {
+.new_asasssin_firstimg>img:nth-of-type(2) {
   width: 43.5rem;
   height: 26.8rem;
   flex-shrink: 0;
+
   @include media("<phone") {
     width: 35rem;
     height: 28.6rem;
   }
 }
 
-.new_asasssin_firstimg > img:nth-of-type(3) {
+.new_asasssin_firstimg>img:nth-of-type(3) {
   width: 44.3rem;
   height: 34.9rem;
   flex-shrink: 0;
+
   @include media("<phone") {
     width: 35rem;
     height: 28.6rem;
   }
 }
 
-.new_asasssin_firstimg > img:nth-of-type(4) {
+.new_asasssin_firstimg>img:nth-of-type(4) {
   width: 49.6rem;
   height: 34.9rem;
   flex-shrink: 0;
+
   @include media("<phone") {
     width: 35rem;
     height: 28.6rem;
@@ -569,6 +618,7 @@
   width: 96.3rem;
   margin-top: 6rem;
   margin-bottom: 8rem;
+
   @include media("<phone") {
     flex-direction: column;
     margin-top: 6rem;
@@ -578,40 +628,44 @@
   }
 }
 
-.new_asasssin_secondimg > img:nth-of-type(1) {
+.new_asasssin_secondimg>img:nth-of-type(1) {
   width: 50.4rem;
   height: 26.8rem;
   flex-shrink: 0;
+
   @include media("<phone") {
     width: 35rem;
     height: 28.6rem;
   }
 }
 
-.new_asasssin_secondimg > img:nth-of-type(2) {
+.new_asasssin_secondimg>img:nth-of-type(2) {
   width: 43.5rem;
   height: 26.8rem;
   flex-shrink: 0;
+
   @include media("<phone") {
     width: 35rem;
     height: 28.6rem;
   }
 }
 
-.new_asasssin_secondimg > img:nth-of-type(3) {
+.new_asasssin_secondimg>img:nth-of-type(3) {
   width: 44.3rem;
   height: 34.9rem;
   flex-shrink: 0;
+
   @include media("<phone") {
     width: 35rem;
     height: 28.6rem;
   }
 }
 
-.new_asasssin_secondimg > img:nth-of-type(4) {
+.new_asasssin_secondimg>img:nth-of-type(4) {
   width: 49.6rem;
   height: 34.9rem;
   flex-shrink: 0;
+
   @include media("<phone") {
     width: 35rem;
     height: 28.6rem;
@@ -626,6 +680,7 @@
   gap: 10rem;
   align-self: stretch;
   border-bottom: 1px solid #171717;
+
   @include media("<phone") {
     display: flex;
     padding: 10rem 2rem;
@@ -643,30 +698,41 @@
   font-size: 1.2rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 100%; /* 1.2rem */
+  line-height: 100%;
+  /* 1.2rem */
   letter-spacing: 0.384rem;
+
   @include media("<phone") {
     color: #fff;
     font-family: "Haas Grot Disp Trial";
     font-size: 1.2rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 100%; /* 1.2rem */
+    line-height: 100%;
+    /* 1.2rem */
     letter-spacing: 0.384rem;
   }
 }
 
 .campaign_campaign {
   display: grid;
-  grid-template-columns: 2fr 2fr;
+  grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
   margin: auto;
+  width: 100%;
+
   @include media("<phone") {
     grid-template-columns: 1fr;
   }
+
+  &>div:last-child:nth-child(odd) {
+    grid-column: 1 / -1;
+    max-width: 130rem;
+    width: 100%;
+  }
 }
 
-.campaign_campaign > div {
+.campaign_campaign>div {
   display: flex;
   padding: 6.4rem 0;
   flex-direction: column;
@@ -674,9 +740,11 @@
   flex: 1 0 0;
   border-radius: 1.2rem;
   background: #141414;
-  width: 64rem;
+  width: 100%;
+  max-width: 64rem;
   justify-content: center;
   align-items: center;
+
   @include media("<phone") {
     display: flex;
     padding: 6.4rem 0;
@@ -690,25 +758,27 @@
   }
 }
 
-.campaign_campaign > div > h2 {
+.campaign_campaign>div>h2 {
   color: #fff;
   text-align: center;
   font-family: "Haas Grot Disp Trial";
   font-size: 9.6rem;
   font-style: normal;
   font-weight: 700;
-  line-height: 120%; /* 11.52rem */
+  line-height: 120%;
+  /* 11.52rem */
   letter-spacing: -0.096rem;
 }
 
-.campaign_campaign > div > p {
+.campaign_campaign>div>p {
   color: #fff;
   text-align: center;
   font-family: "Haas Grot Disp Trial";
   font-size: 2.4rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 120%; /* 2.88rem */
+  line-height: 120%;
+  /* 2.88rem */
   opacity: 0.64;
 }
 
@@ -719,6 +789,7 @@
   gap: 17.4rem;
   align-self: stretch;
   border-bottom: 1px solid #171717;
+
   @include media("<phone") {
     display: flex;
     padding: 10rem 2rem;
@@ -735,15 +806,18 @@
   font-size: 1.2rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 100%; /* 1.2rem */
+  line-height: 100%;
+  /* 1.2rem */
   letter-spacing: 0.384rem;
+
   @include media("<phone") {
     color: #fff;
     font-family: "Haas Grot Disp Trial";
     font-size: 1.2rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 100%; /* 1.2rem */
+    line-height: 100%;
+    /* 1.2rem */
     letter-spacing: 0.384rem;
   }
 }
@@ -757,7 +831,7 @@
   flex: 1 0 0;
 }
 
-.result_result > div {
+.result_result>div {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -766,40 +840,46 @@
   flex: 1 0 0;
 }
 
-.result_result > div > h2 {
+.result_result>div>h2 {
   color: #fff;
   font-family: "Haas Grot Disp Trial";
   font-size: 3.2rem;
   font-style: normal;
   font-weight: 700;
-  line-height: 120%; /* 3.84rem */
+  line-height: 120%;
+  /* 3.84rem */
   letter-spacing: -0.032rem;
+
   @include media("<phone") {
     color: #fff;
     font-family: "Haas Grot Disp Trial";
     font-size: 2rem;
     font-style: normal;
     font-weight: 700;
-    line-height: 120%; /* 2.4rem */
+    line-height: 120%;
+    /* 2.4rem */
     letter-spacing: -0.02rem;
   }
 }
 
-.result_result > div > p {
+.result_result>div>p {
   color: #fff;
   font-family: "Haas Grot Disp Trial";
   font-size: 3.2rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 150%; /* 4.8rem */
+  line-height: 150%;
+  /* 4.8rem */
   width: 97.3rem;
+
   @include media("<phone") {
     color: #fff;
     font-family: "Haas Grot Disp Trial";
     font-size: 2.4rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 120%; /* 2.88rem */
+    line-height: 120%;
+    /* 2.88rem */
     letter-spacing: -0.024rem;
     width: 35rem;
   }

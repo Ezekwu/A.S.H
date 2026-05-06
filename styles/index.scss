@@ -4,16 +4,18 @@ $breakpoints: (
   "phone": 760px,
   "tablet": 1024px,
   "desktop": 1920px,
-) !default;
+  ) !default;
 
 @import "../public/fonts/transfonter.org-20260129-174302/bee/stylesheet.css";
 @import "../public/fonts/transfonter.org-20260129-174302/stylesheet.css";
 @import "../public/fonts/tt/stylesheet.css";
 @import "../node_modules/include-media/dist/include-media";
-@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+);
 
 html {
   font-size: calc(100vw / 1512 * 10);
+
   @include media("<phone") {
     font-size: calc(100vw / 390 * 10);
   }
@@ -46,7 +48,119 @@ body {
   width: 100vw;
   overflow: clip;
 
-  &#home {
+  &#home {}
+}
+
+.project-heading {
+  color: #fff;
+  font-family: "Bebas Neue";
+  font-size: 12.8rem;
+  font-weight: 600;
+  line-height: 90%;
+  /* 11.52rem */
+  letter-spacing: -2%;
+  text-transform: uppercase;
+  width: 97.2rem;
+
+  @include media("<phone") {
+    color: #fff;
+    font-family: "Bebas Neue";
+    font-size: 6.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 90%;
+    /* 5.76rem */
+    letter-spacing: -0.128rem;
+    text-transform: uppercase;
+    width: 35rem;
+  }
+}
+
+.section-flex {
+  display: flex;
+  padding: 16rem 10rem 12rem 10rem;
+  align-items: flex-start;
+  gap: 17.4rem;
+  align-self: stretch;
+  border-bottom: 1px solid #171717;
+
+  @include media("<phone") {
+    display: flex;
+    padding: 10rem 2rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6rem;
+    align-self: stretch;
+  }
+}
+
+.section-flex_left {
+  color: #fff;
+  font-family: "Haas Grot Disp Trial";
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+  white-space: nowrap;
+  /* 1.2rem */
+  letter-spacing: 0.384rem;
+
+  @include media("<phone") {
+    font-size: 1.2rem;
+  }
+}
+
+.section-flex_span {
+  opacity: 0.32;
+}
+
+.section-flex_right {
+  color: #fff;
+  font-family: "Haas Grot Disp Trial";
+
+  @include media("<phone") {
+    width: 35rem;
+    color: #fff;
+  }
+}
+
+.section-flex_right_content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  @include media("<phone") {
+    gap: 1.5rem;
+  }
+
+  &>h2 {
+    color: #fff;
+    font-family: "Haas Grot Disp Trial";
+    font-size: 3.2rem;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: 1%;
+
+    @include media("<phone") {
+      font-size: 2rem;
+    }
+  }
+
+  &>p {
+    color: #fff;
+    font-family: "Haas Grot Disp Trial";
+    font-size: 3.2rem;
+    font-weight: 300;
+    line-height: 150%;
+    letter-spacing: 0%;
+
+    @include media("<phone") {
+      font-size: 2.3rem;
+    }
+
+    & span {
+      opacity: 0.64;
+    }
   }
 }
 
@@ -63,3 +177,6 @@ body {
 @import "./components/contact.scss";
 @import "./components/assassin.scss";
 @import "./components/footer.scss";
+@import "./components/doom.scss";
+@import "./components/albion.scss";
+@import "./components/zenless-zone.scss";

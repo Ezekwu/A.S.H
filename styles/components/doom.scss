@@ -1,0 +1,114 @@
+.doom_process {
+  display: flex;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 4.8rem;
+  align-self: stretch;
+  flex-wrap: wrap;
+}
+
+.doom_process>div:nth-of-type(1) {
+  display: flex;
+  width: 29.2333rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3.2rem;
+}
+
+.doom_process>div:nth-of-type(2) {
+  display: flex;
+  width: 29.2333rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3.2rem;
+}
+
+.doom_process>div:nth-of-type(3) {
+  display: flex;
+  width: 29.2333rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3.2rem;
+}
+
+.doom_process>div>h3 {
+  color: #fff;
+  font-family: "Haas Grot Disp Trial";
+  font-size: 3.2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  /* 4.8rem */
+  display: flex;
+  width: 6rem;
+  height: 6rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.16);
+
+  @include media("<phone") {
+    display: flex;
+    width: 4rem;
+    height: 4rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    aspect-ratio: 1/1;
+    color: #fff;
+    font-family: "Haas Grot Disp Trial";
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 3rem */
+  }
+}
+
+.doom_process>div>h2 {
+  color: #fff;
+  font-family: "Haas Grot Disp Trial";
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%;
+  letter-spacing: 0%;
+
+  @include media("<phone") {
+    color: #fff;
+    font-family: "Haas Grot Disp Trial";
+    font-size: 2.4rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    /* 2.4rem */
+  }
+}
+
+.doom_execution-highligts_flex {
+  gap: 8rem
+}
+
+.doom_execution-highligts_flex_right {
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+}
+
+.doom_learnings_flex {
+  gap: 15rem
+}
+
+.doom_takeaways_flex {
+  gap: 17.8rem;
+}
+
+.plus-sign {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+}
+
+

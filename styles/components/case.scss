@@ -11,6 +11,29 @@
   }
 }
 
+.case_heading {
+  display: flex;
+  align-items: flex-start;
+  gap: 15rem;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 10rem;
+
+  @include media("<phone") {
+    gap: 0;
+    padding: 0 2rem;
+  }
+}
+
+.case_heading_spacer {
+  width: 19rem;
+  flex-shrink: 0;
+
+  @include media("<phone") {
+    display: none;
+  }
+}
+
 .case h2 {
   color: #fff;
   font-family: "Haas Grot Disp Trial";
@@ -19,7 +42,9 @@
   font-weight: 500;
   line-height: 100%; /* 4.8rem */
   letter-spacing: -0.096rem;
-  margin: auto;
+  margin: 0;
+  text-align: left;
+  box-sizing: border-box;
   @include media("<phone") {
     font-size: 3.2rem;
     letter-spacing: -0.064rem;
@@ -29,16 +54,27 @@
 .case_content {
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 
 .case_one {
   display: flex;
-  width: 151.2rem;
   padding: 10rem;
   align-items: flex-start;
+  width: 100%;
+  margin: 0 auto;
   gap: 15rem;
   border-bottom: 1px solid #171717;
   position: relative;
+
+  .brand_div {
+    width: 19rem;
+  }
+
+  .readmore_div {
+    width: 19rem;
+  }
+
   &.active > div > img {
     opacity: 1;
     --transform: translateY(0);
@@ -71,7 +107,7 @@
 }
 
 .case_one > div > h5 {
-  color: #fff;
+  color: rgba(255, 255, 255, 0.65);
   font-family: "Haas Grot Disp Trial";
   font-size: 1.6rem;
   font-style: normal;
@@ -80,11 +116,11 @@
 }
 
 .case_one div > p {
-  color: rgba(255, 255, 255, 0.65);
+  color: #fff;
   font-family: "Haas Grot Disp Trial";
   font-size: 1.6rem;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 600;
   line-height: 140%; /* 2.24rem */
   white-space: pre;
 }
@@ -94,7 +130,7 @@
   font-family: "Bebas Neue";
   font-size: 12.8rem;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 600;
   line-height: 90%; /* 11.52rem */
   letter-spacing: -0.256rem;
   text-transform: uppercase;
