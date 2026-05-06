@@ -559,8 +559,10 @@
 }
 
 .forth_services_left > img {
+  box-sizing: border-box;
   width: 39.293rem;
   height: 52.9882rem;
+  border: 10px solid #fff;
   transition: 0.2s ease-in-out;
   &:hover {
     scale: 1.1;

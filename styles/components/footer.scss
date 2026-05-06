@@ -45,12 +45,15 @@
 }
 
 .first_footer div img {
-  width: 2.4rem;
+  display: block;
   height: 2.4rem;
-  aspect-ratio: 1/1;
+  width: auto;
+  max-height: 2.4rem;
+  object-fit: contain;
+  flex-shrink: 0;
   @include media("<phone") {
-    width: 2rem;
     height: 2.1rem;
+    max-height: 2.1rem;
   }
 }
 
