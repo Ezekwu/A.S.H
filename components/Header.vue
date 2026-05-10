@@ -83,6 +83,8 @@ const route = useRoute();
 const active = ref(false);
 onMounted(() => {
   gsap.registerPlugin(ScrollTrigger);
+
+
   ScrollTrigger.create({
     trigger: ".hero",
     scrub: true,

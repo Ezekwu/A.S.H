@@ -5,11 +5,25 @@
       <h2>Our Work</h2>
     </div>
     <div class="case_content">
+      <NuxtLink href="/doom-the-dark-ages">
+        <div class="case_one">
+          <div class="brand_div">
+            <h5>Brand</h5>
+            <p>Bethesda Softworks</p>
+          </div>
+          <h3>Doom The Dark <br /><span class="shadows">Ages</span></h3>
+          <div class="readmore_div">
+            <img
+              src="/images/doom-big-image-1.webp"
+              alt="DOOM: The Dark Ages"
+              class="k"
+            />
+            <h4 class="readmore"><span>[</span>READ MORE <span>]</span></h4>
+          </div>
+        </div>
+      </NuxtLink>
       <NuxtLink href="/assassin">
-        <div
-          class="case_one"
-          :class="{ active: progress > 0 && progress < 0.3 }"
-        >
+        <div class="case_one">
           <div class="brand_div">
             <h5>Brand</h5>
             <p>Ubisoft</p>
@@ -21,63 +35,75 @@
           </div>
         </div>
       </NuxtLink>
-      <NuxtLink href="/elderScroll">
-        <div
-          class="case_one"
-          :class="{ active: progress > 0.3 && progress < 0.6 }"
-        >
+        <NuxtLink href="/zenless-zone-zero">
+        <div class="case_one">
           <div class="brand_div">
             <h5>Brand</h5>
-            <p>Bethesda Softworks</p>
+            <p>Hoyoverse</p>
           </div>
-          <h3>
-            The Elder Scrolls Online:<br />
-            <span class="shadows">Gold Road</span>
-          </h3>
+          <h3>Zenless Zone <br /><span class="shadows">Zero</span></h3>
           <div class="readmore_div">
-            <img src="/images/m1.webp" alt="" />
+            <img
+              src="/images/zenless-big-image-1.webp"
+              alt="Zenless Zone Zero"
+              class="k"
+            />
             <h4 class="readmore"><span>[</span>READ MORE <span>]</span></h4>
           </div>
         </div>
       </NuxtLink>
-      <NuxtLink href="/gameOfThrones">
-        <div
-          class="case_one"
-          :class="{ active: progress > 0.6 && progress < 0.9 }"
-        >
+      <NuxtLink href="/nakara-blade-point">
+        <div class="case_one">
           <div class="brand_div">
             <h5>Brand</h5>
-            <P>Zynga</P>
+            <p>NetEase Games</p>
           </div>
-          <h3>Game of Thrones: <span class="shadows"> Legends</span></h3>
+          <h3>Naraka <br /><span class="shadows">Bladepoint</span></h3>
           <div class="readmore_div">
-            <img src="/images/m3.webp" alt="" />
+            <img
+              src="/images/nakara-big-image-1.webp"
+              alt="NARAKA: BLADEPOINT"
+              class="k"
+            />
+            
             <h4 class="readmore"><span>[</span>READ MORE <span>]</span></h4>
           </div>
         </div>
       </NuxtLink>
     </div>
+    <div class="case_heading case_heading--cta">
+      <div class="case_heading_spacer" aria-hidden="true" />
+      <Button
+        label="VIEW ALL WORK"
+        href="/work"
+        target="_self"
+        btnClass="view_all_work_button"
+      />
+    </div>
+
   </section>
 </template>
 
 <script setup lang="ts">
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/all";
-const progress = ref(0);
+
 onMounted(() => {
   gsap.registerPlugin(ScrollTrigger);
-  ScrollTrigger.create({
-    trigger: ".case",
-    scrub: true,
-    start: "-15% 0%",
-    end: "80% 0%",
-    animation: gsap
-      .timeline({
-        onUpdate: function () {
-          progress.value = this.progress();
-        },
-      })
-      .to(".case", { y: 0 }),
+
+  const cards = gsap.utils.toArray<HTMLElement>(".case_one");
+  
+  cards.forEach((card) => {
+    ScrollTrigger.create({
+      trigger: card,
+      start: "top center",
+      end: "bottom center",
+      toggleClass: "active",
+    });
   });
+});
+
+onUnmounted(() => {
+  ScrollTrigger.getAll().forEach((trigger) => trigger.kill());
 });
 </script>

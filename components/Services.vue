@@ -87,7 +87,7 @@
             branded art pieces.
           </h4>
 
-          <Button class="services_button" />
+          <Button  />
         </div>
       </div>
     </div>

@@ -637,8 +637,3 @@
   margin-bottom: 14.8rem;
 }
 
-.services_button {
-  @include media("<phone") {
-    width: 21rem !important;
-  }
-}

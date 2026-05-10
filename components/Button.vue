@@ -1,7 +1,12 @@
 <template>
   <section class="button">
     <template v-if="isSubmit">
-      <button class="btn bd" type="submit" :disabled="disabled">
+      <button
+        type="submit"
+        class="btn bd"
+        :class="btnClass"
+        :disabled="disabled"
+      >
         {{ label }}
       </button>
       <div class="colors">
@@ -11,7 +16,7 @@
       </div>
     </template>
     <NuxtLink v-else :href="href" :target="target">
-      <button class="btn bd">{{ label }}</button>
+      <button class="btn bd" :class="btnClass">{{ label }}</button>
       <div class="colors">
         <div></div>
         <div></div>
@@ -42,6 +47,10 @@ defineProps({
   target: {
     type: String,
     default: "_blank",
+  },
+  btnClass: {
+    type: [String, Array, Object],
+    default: undefined,
   },
 });
 </script>

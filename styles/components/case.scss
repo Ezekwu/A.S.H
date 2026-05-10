@@ -1,6 +1,7 @@
 .case {
   display: flex;
   padding-top: 12rem;
+  padding-bottom: 15rem;
   flex-direction: column;
   align-items: flex-start;
   gap: 10rem;
@@ -8,6 +9,7 @@
   background: #000;
   @include media("<phone") {
     gap: 8rem;
+    padding-bottom: 5rem;
   }
 }
 
@@ -202,4 +204,23 @@
 .k {
   border: 0.4rem solid #fff;
   border-radius: 1.1rem;
+}
+
+.case_heading--cta {
+  @include media("<phone") {
+    .button {
+      width: 100%;
+      max-width: 100%;
+    }
+  }
+}
+
+.view_all_work_button {
+  font-weight: 700;
+
+  @include media("<phone") {
+    width: 100% !important;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
 }
