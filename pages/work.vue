@@ -1,6 +1,6 @@
 <template>
   <Header />
-  <section class="work_page">
+  <section ref="workRef" class="work_page">
     <div class="work_page_hero" aria-labelledby="work-page-heading">
       <div class="work_page_hero_inner">
         <h1 id="work-page-heading" class="work_page_hero_title">Our work</h1>
@@ -131,23 +131,30 @@
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/all";
 
-onMounted(() => {
+const workRef = ref<HTMLElement | null>(null);
+const triggers = ref<ScrollTrigger[]>([]);
+
+onMounted(async () => {
+  await nextTick();
   gsap.registerPlugin(ScrollTrigger);
 
-  const cards = gsap.utils.toArray<HTMLElement>(".case_one");
-  
+  const cards = gsap.utils.toArray<HTMLElement>(".case_one", workRef.value);
+
   cards.forEach((card) => {
-    ScrollTrigger.create({
+    const st = ScrollTrigger.create({
       trigger: card,
       start: "top center",
       end: "bottom center",
       toggleClass: "active",
-      markers: true,
     });
+    triggers.value.push(st);
   });
+
+  ScrollTrigger.refresh();
 });
 
 onUnmounted(() => {
-  ScrollTrigger.getAll().forEach((trigger) => trigger.kill());
+  triggers.value.forEach((trigger) => trigger.kill());
+  triggers.value = [];
 });
 </script>

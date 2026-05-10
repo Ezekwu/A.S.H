@@ -1,5 +1,5 @@
 <template>
-  <section class="case" id="caseid">
+  <section ref="sectionRef" class="case" id="caseid">
     <div class="case_heading">
       <div class="case_heading_spacer" aria-hidden="true" />
       <h2>Our Work</h2>
@@ -88,22 +88,30 @@
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/all";
 
-onMounted(() => {
+const sectionRef = ref<HTMLElement | null>(null);
+const triggers = ref<ScrollTrigger[]>([]);
+
+onMounted(async () => {
+  await nextTick();
   gsap.registerPlugin(ScrollTrigger);
 
-  const cards = gsap.utils.toArray<HTMLElement>(".case_one");
-  
+  const cards = gsap.utils.toArray<HTMLElement>(".case_one", sectionRef.value);
+
   cards.forEach((card) => {
-    ScrollTrigger.create({
+    const st = ScrollTrigger.create({
       trigger: card,
       start: "top center",
       end: "bottom center",
       toggleClass: "active",
     });
+    triggers.value.push(st);
   });
+
+  ScrollTrigger.refresh();
 });
 
 onUnmounted(() => {
-  ScrollTrigger.getAll().forEach((trigger) => trigger.kill());
+  triggers.value.forEach((trigger) => trigger.kill());
+  triggers.value = [];
 });
 </script>
