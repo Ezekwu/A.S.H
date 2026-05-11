@@ -18,7 +18,7 @@
           </div>
           <h3>Assassin's Creed <span class="shadows"> Shadows </span></h3>
           <div class="readmore_div">
-            <img src="/images/k.webp" alt="" class="k" />
+            <img src="/images/assasin-work.webp" alt="" class="k" />
             <h4><span>[</span>READ MORE <span>]</span></h4>
           </div>
         </div>
@@ -34,7 +34,7 @@
             <span class="shadows">Gold Road</span>
           </h3>
           <div class="readmore_div">
-            <img src="/images/m1.webp" alt="" />
+            <img src="/images/elder-scroll-work.webp" alt="" class="k" />
             <h4 class="readmore"><span>[</span>READ MORE <span>]</span></h4>
           </div>
         </div>
@@ -47,7 +47,7 @@
           </div>
           <h3>Game of Thrones: <span class="shadows"> Legends</span></h3>
           <div class="readmore_div">
-            <img src="/images/m3.webp" alt="" />
+            <img src="/images/game-of-thrones-work.webp" alt="" class="k" />
             <h4 class="readmore"><span>[</span>READ MORE <span>]</span></h4>
           </div>
         </div>
@@ -61,7 +61,7 @@
           <h3>Zenless Zone <br /><span class="shadows">Zero</span></h3>
           <div class="readmore_div">
             <img
-              src="/images/zenless-big-image-1.webp"
+              src="/images/zenless-zone-work.webp"
               alt="Zenless Zone Zero"
               class="k"
             />
@@ -78,7 +78,7 @@
           <h3>Doom The Dark <br /><span class="shadows">Ages</span></h3>
           <div class="readmore_div">
             <img
-              src="/images/doom-big-image-1.webp"
+              src="/images/doom-of-the-dark-ages-work.webp"
               alt="DOOM: The Dark Ages"
               class="k"
             />
@@ -95,7 +95,7 @@
           <h3>Naraka <br /><span class="shadows">Bladepoint</span></h3>
           <div class="readmore_div">
             <img
-              src="/images/nakara-big-image-1.webp"
+              src="/images/nakara-work.webp"
               alt="NARAKA: BLADEPOINT"
               class="k"
             />
@@ -113,7 +113,7 @@
           <h3>Albion <br> <span class="shadows">Online</span></h3>
           <div class="readmore_div">
             <img
-              src="/images/albion-big-image-1.webp"
+              src="/images/albion-online-work.webp"
               alt="Albion Online"
               class="k"
             />
