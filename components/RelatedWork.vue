@@ -25,37 +25,37 @@ type RelatedItem = {
 const relatedItems: RelatedItem[] = [
   {
     href: '/assassin',
-    imageSrc: '/images/r.webp',
+    imageSrc: '/images/assasin-work.webp',
     title: "Assassin's Creed: Shadows",
   },
   {
     href: '/elderScroll',
-    imageSrc: '/images/m.webp',
+    imageSrc: '/images/elder-scroll-work.webp',
     title: 'The Elder Scrolls Online: Gold Road',
   },
   {
     href: '/gameOfThrones',
-    imageSrc: '/images/aa4.webp',
+    imageSrc: '/images/game-of-thrones-work.webp',
     title: 'Game of Thrones: Legends',
   },
   {
     href: '/nakara-blade-point',
-    imageSrc: '/images/nakara-big-image-1.webp',
+    imageSrc: '/images/nakara-work.webp',
     title: 'Naraka: Blade Point',
   },
   {
     href: '/doom-the-dark-ages',
-    imageSrc: '/images/doom-big-image-1.webp',
+    imageSrc: '/images/doom-of-the-dark-ages-work.webp',
     title: 'Doom: The Dark Ages',
   },
   {
     href: '/albion-online',
-    imageSrc: '/images/albion-big-image-1.webp',
+    imageSrc: '/images/albion-online-work.webp',
     title: 'Albion Online',
   },
   {
     href: '/zenless-zone-zero',
-    imageSrc: '/images/zenless-big-image-1.webp',
+    imageSrc: '/images/zenless-zone-work.webp',
     title: 'Zenless Zone Zero',
   },
 ]
