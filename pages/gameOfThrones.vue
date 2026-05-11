@@ -131,7 +131,7 @@
       </div>
 
       <div class="assassin_images_category">
-        <img src="/images/zynga1.webp" alt="" data-desktop />
+        <img src="/images/zynga1.webp" class="zynga1" alt="" data-desktop />
         <img src="/images/a12.webp" alt="" data-desktop />
         <img src="/images/a13.webp" alt="" data-desktop />
         <img src="/images/zynga1.webp" alt="" data-mobile />
@@ -139,23 +139,7 @@
         <img src="/images/a13.webp" alt="" data-mobile />
       </div>
 
-      <div class="assassin_related">
-        <h2>Related Work</h2>
-        <div class="assassin_related_content">
-          <NuxtLink href="/assassin" class="assassin_related_content_div">
-            <img src="/images/r.webp" alt="" />
-            <p>Assassin's Creed: Shadows</p>
-          </NuxtLink>
-          <NuxtLink href="/elderScroll" class="assassin_related_content_div">
-            <img src="/images/m.webp" alt="" />
-            <p>The Elder Scrolls Online: Gold Road</p>
-          </NuxtLink>
-          <NuxtLink href="/gameOfThrones" class="assassin_related_content_div">
-            <img src="/images/d.webp" alt="" />
-            <p>Game of Thrones: Legends</p>
-          </NuxtLink>
-        </div>
-      </div>
+      <RelatedWork />
     </div>
     <Contact />
     <Footer />

@@ -3,6 +3,8 @@
   "extends": "./.nuxt/tsconfig.json",
   "compilerOptions": {
     "strictPropertyInitialization": false,
-    "noImplicitThis": false
+    "noImplicitThis": false,
+    // GSAP typings (draggable.d.ts vs gsap/Draggable) clash on Windows under strict file-name casing
+    "forceConsistentCasingInFileNames": false
   }
 }

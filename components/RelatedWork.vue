@@ -1,0 +1,101 @@
+<template>
+  <div class="assassin_related">
+    <h2>Related Work</h2>
+    <div class="assassin_related_content">
+      <NuxtLink
+        v-for="item in displayedItems"
+        :key="item.href"
+        :href="item.href"
+        class="assassin_related_content_div"
+      >
+        <img :src="item.imageSrc" :alt="item.title" />
+        <p>{{ item.title }}</p>
+      </NuxtLink>
+    </div>
+  </div>
+</template>
+
+<script setup lang="ts">
+type RelatedItem = {
+  href: string
+  imageSrc: string
+  title: string
+}
+
+const relatedItems: RelatedItem[] = [
+  {
+    href: '/assassin',
+    imageSrc: '/images/r.webp',
+    title: "Assassin's Creed: Shadows",
+  },
+  {
+    href: '/elderScroll',
+    imageSrc: '/images/m.webp',
+    title: 'The Elder Scrolls Online: Gold Road',
+  },
+  {
+    href: '/gameOfThrones',
+    imageSrc: '/images/aa4.webp',
+    title: 'Game of Thrones: Legends',
+  },
+  {
+    href: '/nakara-blade-point',
+    imageSrc: '/images/nakara-big-image-1.webp',
+    title: 'Naraka: Blade Point',
+  },
+  {
+    href: '/doom-the-dark-ages',
+    imageSrc: '/images/doom-big-image-1.webp',
+    title: 'Doom: The Dark Ages',
+  },
+  {
+    href: '/albion-online',
+    imageSrc: '/images/albion-big-image-1.webp',
+    title: 'Albion Online',
+  },
+  {
+    href: '/zenless-zone-zero',
+    imageSrc: '/images/zenless-big-image-1.webp',
+    title: 'Zenless Zone Zero',
+  },
+]
+
+function normalizePath(path: string): string {
+  return path.replace(/\/$/, '') || '/'
+}
+
+function shuffleCopy<T>(items: T[]): T[] {
+  const copy = [...items]
+  for (let i = copy.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1))
+    const a = copy[i]
+    const b = copy[j]
+    if (a === undefined || b === undefined) continue
+    copy[i] = b
+    copy[j] = a
+  }
+  return copy
+}
+
+function pickRandomRelated(
+  all: RelatedItem[],
+  currentPath: string,
+  count: number,
+): RelatedItem[] {
+  const normalizedCurrent = normalizePath(currentPath)
+  const pool = all.filter(
+    (item) => normalizePath(item.href) !== normalizedCurrent,
+  )
+  return shuffleCopy(pool).slice(0, Math.min(count, pool.length))
+}
+
+const route = useRoute()
+const displayedItems = ref<RelatedItem[]>([])
+
+function refreshDisplayed() {
+  displayedItems.value = pickRandomRelated(relatedItems, route.path, 3)
+}
+
+onMounted(refreshDisplayed)
+watch(() => route.path, refreshDisplayed)
+</script>

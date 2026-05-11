@@ -13,14 +13,14 @@
       </h3>
     </div>
     <div class="about_collage">
-      <img src="/images/r1.webp" alt="" />
-      <img src="/images/r2.webp" alt="" />
-      <img src="/images/r3.webp" alt="" />
-      <img src="/images/r4.webp" alt="" />
+      <img src="/images/m.webp" alt="" />
+      <img src="/images/aa4.webp" alt="" />
+      <img src="/images/m.webp" alt="" />
+      <img src="/images/aa7.webp" alt="" />
       <img src="/images/r10.webp" alt="" />
       <img src="/images/r6.webp" alt="" />
-      <img src="/images/r7.webp" alt="" />
-      <img src="/images/r8.webp" alt="" />
+      <img src="/images/l1.webp" alt="" />
+      <img src="/images/assassin-big-image-1.webp" alt="" />
     </div>
   </section>
 </template>
