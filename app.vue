@@ -11,6 +11,7 @@ import "./styles/index.scss";
 const projName = ref("ASH Entertainment");
 const projDesc = ref("ASH Entertainment is a creator-led collective that collaborates with leading game studios to bring video game worlds to life through video production, immersive experiences, media, and custom collectibles.");
 const config = useRuntimeConfig();
+const ogImage = computed(() => `${config.public.siteUrl}/images/og-image.png`);
 onMounted(() => {
   const appId = config.public.apolloAppId;
   const n = Math.random().toString(36).substring(7);
@@ -24,6 +25,7 @@ onMounted(() => {
   document.head.appendChild(o);
 });
 
+
 const computedPageMeta = computed(() => {
   return {
     title: projName.value,
@@ -36,7 +38,7 @@ const computedPageMeta = computed(() => {
         property: "og:description",
         content: projDesc.value,
       },
-      { hid: "og-image", property: "og:image", content: "src" },
+      { hid: "og-image", property: "og:image", content: ogImage.value },
       {
         hid: "twitter-card",
         property: "twitter:card",
@@ -52,7 +54,7 @@ const computedPageMeta = computed(() => {
         property: "twitter:description",
         content: projDesc.value,
       },
-      { hid: "twitter-image", property: "twitter:image", content: "src" },
+      { hid: "twitter-image", property: "twitter:image", content: ogImage.value },
     ],
   };
 });
