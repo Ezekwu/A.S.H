@@ -1,0 +1,136 @@
+.team_detail {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #000;
+}
+
+.team_detail_flex {
+  gap: 8rem;
+
+  @include media("<phone") {
+    gap: 6rem;
+  }
+}
+
+.team_detail .section-flex_left {
+  flex: 0 0 auto;
+  min-width: 31rem;
+
+  @include media("<phone") {
+    min-width: unset;
+  }
+}
+
+.team_detail .section-flex_right {
+  width: 97.3rem;
+  max-width: 100%;
+
+  @include media("<phone") {
+    width: 35rem;
+  }
+}
+
+.team_detail_hero {
+  padding-top: 16rem;
+  padding-bottom: 0;
+  border-bottom: none;
+
+  @include media("<phone") {
+    padding-top: 8rem;
+  }
+}
+
+.team_detail_hero_spacer {
+  visibility: hidden;
+}
+
+.team_detail_hero_content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.team_detail_name {
+  color: #fff;
+  font-family: "Bebas Neue";
+  font-size: 12.8rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 90%;
+  letter-spacing: -2%;
+  text-transform: uppercase;
+  @include media("<phone") {
+    font-size: 5.6rem;
+    letter-spacing: -0.168rem;
+  }
+}
+
+.team_detail_title {
+  margin-top: 1.6rem;
+  color: #fff;
+  font-family: "Haas Grot Disp Trial";
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  @include media("<phone") {
+    font-size: 2rem;
+  }
+}
+
+.team_detail_image {
+  width: 100%;
+  height: 70rem;
+  margin-top: 6.7rem;
+  object-fit: cover;
+  @include media("<phone") {
+    width: 100%;
+    max-width: 35rem;
+    height: auto;
+    aspect-ratio: 1 / 1;
+  }
+}
+
+.team_detail_section {
+  border-bottom: none;
+}
+
+.team_detail_background {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+
+  @include media("<phone") {
+    gap: 1.5rem;
+  }
+}
+
+.team_detail_background_text {
+  color: #fff;
+  font-family: "Haas Grot Disp Trial";
+  font-size: 3.2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0;
+
+  @include media("<phone") {
+    font-size: 2.4rem;
+    letter-spacing: -0.024rem;
+  }
+}
+
+.team_detail_highlights_footer {
+  color: #fff;
+  font-family: "Haas Grot Disp Trial";
+  font-size: 3.2rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 150%;
+  letter-spacing: 0%;
+
+  @include media("<phone") {
+    font-size: 2.3rem;
+  }
+}

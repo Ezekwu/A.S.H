@@ -11,7 +11,7 @@
       </div>
       <video class="video_bgg" autoplay muted loop playsinline>
         <source
-          src="https://res.cloudinary.com/dvk4u5mgl/video/upload/v1770833692/Bethesda_ESO_CaseStudy_Video_1_jksipb.mp4"
+          src="https://res.cloudinary.com/dcdfqrryo/video/upload/v1779890178/Albion_nijjj5.mp4"
         />
       </video>
       <div class="assassin_challenges">
@@ -21,14 +21,24 @@
             >]</span
           >
         </h3>
-        <h2 class="assassin_challenges_right">
-        Create a creator-driven, global gaming event that feels legendary, communal, and worthy.
+        <div class="assassin_challenges_right">
+          <p>
+            Create a creator-driven, global gaming event that feels legendary, communal, and worthy.
 
 
           <br />
           <br />
           Sandbox Interactive, the studio behind Albion Online, sought to rally its community and creator ecosystem behind a contest that was more than just a giveaway. Much more. The goal was to mastermind a creator-led activation that was fiercely competitive, fun, communal, and worthy of the fight.
-        </h2>
+          </p>
+          <div class="albion_challenges_right_image">
+            <img src="/images/the-crucible.webp" alt="The Crucible" />
+          </div>
+        </div>
+      </div>
+
+      <div class="assassin_images_category">
+        <img src="/images/albion-big-image-1.webp" alt="" data-desktop />
+        <img src="/images/albion-big-image-1.webp" alt="" data-mobile />
       </div>
 
       <div class="assassin_approach">
@@ -99,6 +109,41 @@
         </div>
       </div>
 
+      <div class="section-flex albion_creator_champion_flex">
+        <h3 class="section-flex_left">
+          <span class="assassin_span">[</span>
+          THE CREATOR + THE CHAMPION
+          <span class="assassin_span">]</span>
+        </h3>
+        <div class="section-flex_right albion_creator_champion_content">
+          <div class="albion_creator_champion_block">
+            <img
+              src="/images/albion-creators.webp"
+              alt="The Crucible creators including Zerator, Quin69, Metash12, and Knekro"
+              class="albion_creator_champion_image"
+            />
+            <p class="albion_creator_champion_text">
+              More than 100 of the biggest creators on Twitch and across the Albion ecosystem formed guilds and competed throughout the event. Among other prizes, the winning guild, led by Zizaran, earned the Galatine Pair. The swords were given directly to the champion as the ultimate symbol of mastery and leadership.
+            </p>
+          </div>
+          <div class="albion_creator_champion_block">
+            <img
+              src="/images/champion-zizaran.webp"
+              alt="Champion Zizaran, Galatine Pair recipient from Road to Exile"
+              class="albion_creator_champion_image"
+            />
+            <p class="albion_creator_champion_text">
+              The Crucible elevated a classic tournament into a community moment. Creators rallied their audiences, guilds formed alliances, and the entire Albion ecosystem came alive around the competition. The physical prize gave the event a gravity that purely digital rewards could never match.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="assassin_images_category">
+        <img src="/images/albion-big-image-2.webp" alt="" data-desktop />
+        <img src="/images/albion-big-image-2.webp" alt="" data-mobile />
+      </div>
+
       <div class="section-flex albion_impact_flex">
         <h3 class="section-flex_left impact-heading">
           <span class="assassin_span">[</span>
@@ -163,11 +208,7 @@
       </div>
 
       <div class="assassin_images_category">
-        <img src="/images/albion-big-image-1.webp" alt="" data-desktop />
-        <img src="/images/albion-big-image-2.webp" alt="" data-desktop />
         <img src="/images/albion-big-image-3.webp" alt="" data-desktop />
-        <img src="/images/albion-big-image-1.webp" alt="" data-mobile />
-        <img src="/images/albion-big-image-2.webp" alt="" data-mobile />
         <img src="/images/albion-big-image-3.webp" alt="" data-mobile />
       </div>
       <RelatedWork />

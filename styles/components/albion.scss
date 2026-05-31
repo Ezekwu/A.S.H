@@ -1,3 +1,88 @@
 .albion_impact_flex {
-  gap: 22rem
+  gap: 22rem;
+}
+
+.albion_creator_champion_flex {
+  gap: 4.4rem;
+
+  @include media("<phone") {
+    gap: 6rem;
+  }
+
+  .section-flex_left {
+    flex-shrink: 0;
+  }
+
+  .section-flex_right {
+    flex: 1;
+    width: 100%;
+    max-width: none;
+    min-width: 0;
+  }
+}
+
+.albion_creator_champion_content {
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+  width: 100%;
+
+  @include media("<phone") {
+    gap: 4rem;
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.albion_creator_champion_block {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  width: 100%;
+
+  @include media("<phone") {
+    gap: 2rem;
+  }
+}
+
+.albion_creator_champion_image {
+  width: 100%;
+  height: auto !important;
+  display: block;
+  object-fit: cover;
+}
+
+.albion_creator_champion_text {
+  color: #fff;
+  font-family: "Haas Grot Disp Trial";
+  font-size: 3.2rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 150%;
+  letter-spacing: 0;
+  text-align: left;
+  width: 100%;
+
+  @include media("<phone") {
+    font-size: 2.3rem;
+  }
+}
+
+.albion_challenges_right_image {
+  margin-top: 2rem;
+  padding: 1.6rem 0;
+  background-color: #0E1F02;
+
+  img {
+    height: 7.4rem;
+    max-width: 43.1rem;
+  }
+
+  @include media("<phone") {
+    padding: 1.3rem 0;
+    img {
+      height: 5.4rem;
+      max-width: 30rem;
+    }
+  }
 }
