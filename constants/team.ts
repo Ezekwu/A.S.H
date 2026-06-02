@@ -8,6 +8,7 @@ export type TeamMember = {
   name: string;
   title: string;
   image: string;
+  externalLink?: string;
   detailPage?: boolean;
   background?: string[];
   executionHighlights?: TeamHighlight[];
@@ -50,6 +51,7 @@ export const TEAM_MEMBERS_LIST: TeamMember[] = [
     name: "Kerry Stagmer",
     title: "Co-Founder/CEO",
     image: "/images/j1.webp",
+    externalLink: "https://baltimoreknifeandsword.com/kerry",
   },
   TEAM_MEMBERS["brendan-kennedy"],
   TEAM_MEMBERS["dat-tran"],
