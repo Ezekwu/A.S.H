@@ -21,7 +21,9 @@
         gamers at heart with a deep understanding of what turns everyday players
         into loyal fans.
       </p>
-      <button>Work with ART SHOULD HURT</button>
+      <NuxtLink to="/contacts">
+        <button type="button">Work with ART SHOULD HURT</button>
+      </NuxtLink>
     </div>
   </section>
 </template>

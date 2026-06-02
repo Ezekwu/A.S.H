@@ -22,28 +22,11 @@ export const TEAM_MEMBERS: Record<string, TeamMember> = {
     image: "/images/j2.webp",
     detailPage: true,
     background: [
-      "The team at HoYoverse approached ASH with an incredible challenge: to bring one of their most iconic weapons to life.",
-      "To celebrate the arrival of Hoshimi Miyabi, the latest and most anticipated playable Agent in Zenless Zone Zero, we were commissioned to forge her signature weapon, the Tailless Blue Flame Katana. The blade stands as a symbol of Miyabi’s strength, her family lineage, and the source of her formidable power.",
+      "Brendan Kennedy is a producer and director with over 10 years of experience delivering video production across video game marketing, esports, and branded content. As CoFounder of ASH Entertainment, he leads the company's video production services alongside Co-Founder and Head of Business Development Dat Tran.",
+      "He has a demonstrated history of working in the digital branded content world, having worked at Riot Games and produced content for Activision Blizzard, Bethesda, 2K, HoYoverse, and Krafton Games, among others. His experience in the gaming community has given him valuable insight into what players are looking for.",
+      "He can oversee a shoot from pre-production, working with the creative, lining out the budget, booking the crew, and running the shoot on the day, all the way through the delivery and posting of the project."
     ],
-    executionHighlights: [
-      {
-        title: "AWE ME:",
-        description:
-          "Full-length episode of Man at Arms: Reforged featuring the complete creation of Miyabi’s Tailless Katana.",
-      },
-      {
-        title: "CREATIVE FIDELITY:",
-        description:
-          "Showcased real-world smithing techniques and flame effects faithful to the game’s art direction.",
-      },
-      {
-        title: "SOCIAL BOOST:",
-        description:
-          "Amplified across YouTube, Instagram, and X with short-form edits and stills.",
-      },
-    ],
-    executionHighlightsFooter:
-      "Players raved across Reddit, X, and HoYo’s official discussion forums.",
+    
   },
   "dat-tran": {
     slug: "dat-tran",
@@ -51,26 +34,12 @@ export const TEAM_MEMBERS: Record<string, TeamMember> = {
     title: "Co-Founder/Head of Business Dev",
     image: "/images/j3.webp",
     detailPage: true,
-      executionHighlights: [
-      {
-        title: "AWE ME:",
-        description:
-          "Full-length episode of Man at Arms: Reforged featuring the complete creation of Miyabi’s Tailless Katana.",
-      },
-      {
-        title: "CREATIVE FIDELITY:",
-        description:
-          "Showcased real-world smithing techniques and flame effects faithful to the game’s art direction.",
-      },
-      {
-        title: "SOCIAL BOOST:",
-        description:
-          "Amplified across YouTube, Instagram, and X with short-form edits and stills.",
-      },
-    ],
+      
     background: [
-      "Before games he was a competitive figure skater from Canada. Having traveled the world to various competitions, events, and shows, he developed a deep appreciation for the artistry behind live storytelling.",
-      "As he entered and began building a career in gaming, he found himself at the epicenter in the early stages of the launch of esports, streaming, and influencer marketing which led to his involvement in some of the earliest creator-led activations for brands like Red Bull and Ubisoft.",
+      "Dat Tran is a producer and business development executive with over 10 years of experience delivering video production across music, gaming, and branded content. As Co-Founder of ASH Entertainment, he leads the company's video production services alongside Co-Founder and Executive Producer Brendan Kennedy, bringing a unique blend of traditional media and Hollywood studio experience to build an independent, creator-driven model grounded in real industry insight.",
+      "After completing his service in the Army National Guard, Dat began working in the entertainment industry, spending four years on the senior leadership team at Warner Music Group overseeing studio production operations, followed by a role as Head of Production at Huffman Creative. Before that, he built his foundation at UPROXX Studios managing branded campaigns for some of the biggest names in entertainment.",
+      "His project credits include Executive Producer and Supervising Producer roles on campaigns for Activision Blizzard (Call of Duty: WWII), Ubisoft (Far Cry 5), Bethesda (The Elder Scrolls Online: Gold Road), Doja Cat x BBC, JoJo x Honda, Rick Ross x Checkers, and more.",
+      "With a track record spanning global game launches, music videos, celebrity brand partnerships, and long-form branded series, Dat and the ASH team are built to deliver at every scale."
     ],
   },
 };

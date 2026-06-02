@@ -21,12 +21,11 @@
         </div>
         <div class="first_services_right">
           <img src="/images/s1.webp" alt="" />
-          <!-- <img src="/images/s2.webp" alt="" /> -->
         </div>
       </div>
       <div class="second_services">
         <div class="second_services_left">
-          <img src="/images/s3.webp" alt="" />
+          <img src="/images/s2.webp" alt="" />
         </div>
         <div class="second_services_right">
           <div>
@@ -67,14 +66,13 @@
           <Button />
         </div>
         <div class="third_services_right">
-          <img src="/images/s4.webp" alt="" />
-          <!-- <img src="/images/s5.webp" alt="" /> -->
+          <img src="/images/s3.webp" alt="" />
         </div>
       </div>
       <div class="forth_services">
         <div class="forth_services_left">
-          <img src="/images/s6.webp" alt="" />
-          <!-- <img src="/images/s7.webp" alt="" /> -->
+          <img src="/images/s4.webp" alt="" />
+          <!-- <img src="/images/.webp" alt="" /> -->
         </div>
         <div class="forth_services_right">
           <div>
