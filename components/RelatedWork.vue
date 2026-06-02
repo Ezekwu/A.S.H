@@ -8,7 +8,9 @@
         :href="item.href"
         class="assassin_related_content_div"
       >
-        <img :src="item.imageSrc" :alt="item.title" />
+        <div class="assassin_related_content_div_image">
+          <img :src="item.imageSrc" :alt="item.title" />
+        </div>
         <p>{{ item.title }}</p>
       </NuxtLink>
     </div>

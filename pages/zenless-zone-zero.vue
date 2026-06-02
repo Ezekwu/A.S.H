@@ -11,7 +11,7 @@
       </div>
       <video class="video_bgg" autoplay muted loop playsinline>
         <source
-          src="https://res.cloudinary.com/dvk4u5mgl/video/upload/v1770833692/Bethesda_ESO_CaseStudy_Video_1_jksipb.mp4"
+          src="https://res.cloudinary.com/dcdfqrryo/video/upload/v1779890179/Zzz-Video_q0tvny.mp4"
         />
       </video>
       <div class="assassin_challenges">
@@ -28,6 +28,11 @@
           <br />
           To celebrate the arrival of Hoshimi Miyabi, the latest and most anticipated playable Agent in Zenless Zone Zero, we were commissioned to forge her signature weapon, the Tailless Blue Flame Katana. The blade stands as a symbol of Miyabi’s strength, her family lineage, and the source of her formidable power.
         </h2>
+      </div>
+
+      <div class="assassin_images_category">
+        <img src="/images/zenless-big-image-1.webp" alt="" data-desktop />
+        <img src="/images/zenless-big-image-1.webp" alt="" data-mobile />
       </div>
 
       <div class="assassin_approach">
@@ -85,29 +90,55 @@
         </div>
       </div>
 
-      <div class="campaign">
-        <h2 class="campaign_header"><span class="assassin_span">[</span>
-          THE RESULTS
-          <span
-            class="assassin_span"
-            >]</span
-          ></h2>
-        <div class="campaign_campaign">
-          <div class="cf">
-            <h2><span class="plus-sign">+</span>400<span class="plus-sign">%</span></h2>
-            <p>More first month viewers</p>
+      <div class="campaign zenless_results">
+        <h2 class="campaign_header">
+          <span class="assassin_span">[</span>
+          RESULTS
+          <span class="assassin_span">]</span>
+        </h2>
+        <div class="zenless_results_grid">
+          <div class="zenless_results_stats">
+            <div class="cf">
+              <h2>
+                <span class="plus-sign">+</span>400<span class="plus-sign">%</span>
+              </h2>
+              <p>More First Month Viewers*</p>
+            </div>
+            <div class="cf">
+              <h2>
+                <span class="plus-sign">+</span>200<span class="plus-sign">%</span>
+              </h2>
+              <p>More Total Views*</p>
+            </div>
+            <div class="cf">
+              <h2>
+                <span class="plus-sign">+</span>219<span class="plus-sign">%</span>
+              </h2>
+              <p>More Viewer Engagement*</p>
+            </div>
+            <div class="zenless_results_footnote">
+              <p>*Compared To 12 month <br> Channel Average</p>
+            </div>
           </div>
-          <div class="cf">
-            <h2><span class="plus-sign">+</span>200<span class="plus-sign">%</span></h2>
-            <p>More total views</p>
-          </div>
-          <div class="cf">
-            <h2><span class="plus-sign">+</span>219<span class="plus-sign">%</span></h2>
-            <p>More viewer engagement</p>
-          </div>
-          <div class="cf">
-            <h2><span class="plus-sign">+</span>1.2M</h2>
-            <p>Views on YouTube</p>
+
+          <div class="zenless_results_media">
+            <img
+              src="/images/zenless-yt.webp"
+              alt="Man at Arms Reforged Zenless Zone Zero episode on YouTube"
+              class="zenless_results_youtube"
+            />
+            <div class="zenless_results_panel zenless_results_panel--community">
+              <h3 class="zenless_results_label zenless_results_label--community">
+                <span class="assassin_span">[</span>
+                COMMUNITY REACTION
+                <span class="assassin_span">]</span>
+              </h3>
+              <img
+                src="/images/zenless-testimonial.webp"
+                alt="Community reaction to the Zenless Zone Zero collaboration"
+                class="zenless_results_testimonial"
+              />
+            </div>
           </div>
         </div>
       </div>
@@ -133,6 +164,11 @@
         </div>
       </div>
 
+      <div class="assassin_images_category">
+        <img src="/images/zenless-big-image-2.webp" alt="" data-desktop />
+        <img src="/images/zenless-big-image-2.webp" alt="" data-mobile />
+      </div>
+
         <div class="section-flex doom_takeaways_flex">
         <h3 class="section-flex_left">
           <span class="assassin_span">[</span>
@@ -156,11 +192,7 @@
 
 
       <div class="assassin_images_category">
-        <img src="/images/zenless-big-image-1.webp" alt="" data-desktop />
-        <img src="/images/zenless-big-image-2.webp" alt="" data-desktop />
         <img src="/images/zenless-big-image-3.webp" alt="" data-desktop />
-        <img src="/images/zenless-big-image-1.webp" alt="" data-mobile />
-        <img src="/images/zenless-big-image-2.webp" alt="" data-mobile />
         <img src="/images/zenless-big-image-3.webp" alt="" data-mobile />
       </div>
       <RelatedWork />

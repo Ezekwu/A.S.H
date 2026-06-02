@@ -2,41 +2,31 @@
   <section class="tea">
     <h2>Meet The Team</h2>
     <div class="tea_content">
-      <div class="tea_content_data">
-        <img src="/images/j1.webp" alt="" />
-        <div>
-          <h4>Kerry Stagmer</h4>
-          <p>Co-Founder/CEO</p>
+      <template v-for="member in TEAM_MEMBERS_LIST" :key="member.slug">
+        <NuxtLink
+          v-if="member.detailPage"
+          :href="`/team/${member.slug}`"
+          class="tea_content_data"
+        >
+          <img :src="member.image" :alt="member.name" />
+          <div>
+            <h4>{{ member.name }}</h4>
+            <p>{{ member.title }}</p>
+          </div>
+        </NuxtLink>
+
+        <div v-else class="tea_content_data">
+          <img :src="member.image" :alt="member.name" />
+          <div>
+            <h4>{{ member.name }}</h4>
+            <p>{{ member.title }}</p>
+          </div>
         </div>
-      </div>
-      <div class="tea_content_data">
-        <img src="/images/j2.webp" alt="" />
-        <div>
-          <h4>Brendan Kennedy</h4>
-          <p>Co-Founder/Executive Producer</p>
-        </div>
-      </div>
-      <div class="tea_content_data">
-        <img src="/images/j3.webp" alt="" />
-        <div>
-          <h4>Dat Tran</h4>
-          <p>Co-Founder/Head of Business Dev</p>
-        </div>
-      </div>
-      <div class="tea_content_data">
-        <img src="/images/j4.webp" alt="" />
-        <div>
-          <h4>Mahendra Khera</h4>
-          <p>Producer/Editor</p>
-        </div>
-      </div>
-      <div class="tea_content_data">
-        <img src="/images/j5.webp" alt="" />
-        <div>
-          <h4>Cate Barry</h4>
-          <p>Administrative Assistant</p>
-        </div>
-      </div>
+      </template>
     </div>
   </section>
 </template>
+
+<script setup lang="ts">
+import { TEAM_MEMBERS_LIST } from "~/constants/team";
+</script>

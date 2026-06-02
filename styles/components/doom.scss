@@ -111,4 +111,313 @@
   font-weight: 700;
 }
 
+.doom_results_grid {
+  display: grid;
+  grid-template-columns: minmax(0, 64rem) minmax(0, 1fr);
+  gap: 2rem;
+  width: 100%;
 
+  @include media(">=phone") {
+    align-items: stretch;
+  }
+
+  @include media("<phone") {
+    grid-template-columns: 1fr;
+  }
+}
+
+.doom_results_column {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  min-width: 0;
+
+  @include media(">=phone") {
+    height: 100%;
+  }
+}
+
+.doom_results_column--left {  
+  @include media(">=phone") {
+    .doom_results_stat {
+      min-height: 30rem;
+    }
+
+    .earned-media-container .doom_results_panel {
+      min-height: 30rem;
+    }
+  }
+
+  .community-reaction-label {
+    margin-bottom: 4rem;
+  }
+}
+
+.doom_results_column--right {
+  .total-campaign-views-label {
+    margin-bottom: 1rem;
+  }
+
+  .earned-media-panel {
+    max-height: fit-content;
+    min-height: 0;
+    overflow: hidden;
+  }
+}
+
+
+
+.doom_results_stat:not(.doom_results_stat--compact),
+.doom_results_panel,
+.doom_results_influencer_card,
+.earned-media-container {
+  border: 1px solid #212121;
+  background: #141414;
+}
+
+.doom_results_stat {
+  display: flex;
+  min-height: 20rem;
+  padding: 6.4rem 0;
+  flex-direction: column;
+  gap: 0.4rem;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+  @include media("<phone") {
+    min-height: 16rem;
+    padding: 4.8rem 0;
+  }
+
+  h2 {
+    color: #fff;
+    text-align: center;
+    font-family: "Haas Grot Disp Trial";
+    font-size: 8rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: -1%;
+
+    @include media("<phone") {
+      font-size: 6.4rem;
+    }
+  }
+
+  p {
+    color: #fff;
+    text-align: center;
+    font-family: "Haas Grot Disp Trial";
+    font-size: 2.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    opacity: 0.64;
+
+    @include media("<phone") {
+      font-size: 2rem;
+      padding: 0 2rem;
+    }
+  }
+}
+
+.doom_results_stat--compact {
+  min-height: 16rem;
+  padding: 4.8rem 0;
+  background: transparent;
+}
+
+.doom_results_panel {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 3.2rem;
+
+  @include media("<phone") {
+    padding: 2rem;
+    gap: 1.6rem;
+  }
+
+  .doom_results_stat--compact {
+    padding: 2.4rem 0;
+    min-height: auto;
+  }
+}
+
+.earned-media-container {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+
+  .doom_results_panel {
+    border: none;
+    background: transparent;
+  }
+}
+
+.doom_results_panel_label {
+  color: #fff;
+  font-family: "Haas Grot Disp Trial";
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: 0.384rem;
+}
+
+.doom_results_image {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+.doom_results_influencer_card {
+  overflow: hidden;
+}
+
+.doom_results_influencer {
+  width: 100%;
+  height: auto !important;
+  display: block;
+  max-width: 100%;
+}
+
+.doom_results_influencer--full {
+  object-fit: cover;
+  position: relative;
+  z-index: 1;
+}
+
+.doom_results_influencer--photo {
+  object-fit: cover;
+  max-height: 46.5rem;
+  width: 36.1rem;
+  margin: -55px auto 0;
+  @include media("<phone") {
+    min-height: 40rem;
+    padding: 1.6rem;
+  }
+}
+
+.doom_results_socials {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.6rem;
+
+  @include media("<phone") {
+    grid-template-columns: 1fr;
+    gap: 1.2rem;
+  }
+}
+
+.doom_results_social {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.6rem;
+  padding: 2.4rem 3.2rem 2.2rem;
+
+  @include media("<phone") {
+    padding: 2.2rem 1.6rem;
+  }
+
+  img {
+    flex-shrink: 0;
+    object-fit: contain;
+  }
+}
+
+.doom_results_social_text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4rem;
+  text-align: center;
+}
+
+.doom_results_social_value {
+  color: #fff;
+  font-family: "Haas Grot Disp Trial";
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%;
+  letter-spacing: -0.06rem;
+  text-align: center;
+}
+
+.doom_results_social_label {
+  color: #fff;
+  font-family: "Haas Grot Disp Trial";
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+.doom_results_social--youtube {
+  background: #fe0002;
+
+  img {
+    width: 5.7rem;
+    height: 4rem;
+
+    @include media("<phone") {
+      width: 4.4rem;
+      height: 3.1rem;
+    }
+  }
+}
+
+.doom_results_social--tiktok {
+  background: #000;
+
+  img {
+    width: 3.5rem;
+    height: 4rem;
+
+    @include media("<phone") {
+      width: 3.2rem;
+      height: 3.6rem;
+    }
+  }
+}
+
+.doom_results_social--instagram {
+  background: linear-gradient(
+    90deg,
+    #f8c343 0%,
+    #e93950 26.44%,
+    #e7339b 54.33%,
+    #ba27cd 76.92%,
+    #7522eb 100%
+  );
+
+  img {
+    width: 5.6rem;
+    height: 5.6rem;
+
+    @include media("<phone") {
+      width: 4rem;
+      height: 4rem;
+    }
+  }
+}
+
+.doom_results_social--x {
+  background: #000;
+
+  img {
+    width: 4.7rem;
+    height: 3.7rem;
+
+    @include media("<phone") {
+      width: 4rem;
+      height: 3.4rem;
+    }
+  }
+}

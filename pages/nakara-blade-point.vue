@@ -11,7 +11,7 @@
       </div>
       <video class="video_bgg" autoplay muted loop playsinline>
         <source
-          src="https://res.cloudinary.com/dvk4u5mgl/video/upload/v1770833692/Bethesda_ESO_CaseStudy_Video_1_jksipb.mp4"
+          src="https://res.cloudinary.com/dcdfqrryo/video/upload/v1779890173/Naraka_ibsqpt.mp4"
         />
       </video>
       <div class="assassin_challenges">
@@ -32,6 +32,13 @@
           <br />
           The Whipsword itself immediately raised the stakes. This is a sword that transforms between a rigid blade and a flexible whip, demanding precise engineering to bring to life.
         </h2>
+      </div>
+
+      <div class="assassin_images_category">
+          <img src="/images/nakara-big-image-1.webp" alt="" data-desktop />
+        
+          <img src="/images/nakara-big-image-1.webp" alt="" data-mobile />
+        
       </div>
 
       <div class="assassin_approach">
@@ -64,6 +71,13 @@
         </div>
       </div>
 
+      <div class="assassin_images_category">
+          <img src="/images/nakara-big-image-2.webp" alt="" data-desktop />
+        
+          <img src="/images/nakara-big-image-2.webp" alt="" data-mobile />
+        
+      </div>
+
       <div class="section-flex doom_execution-highligts_flex">
         <h3 class="section-flex_left">
           <span class="assassin_span">[</span>
@@ -85,25 +99,149 @@
         </div>
       </div>
 
-      <div class="campaign">
-        <h2 class="campaign_header"><span class="assassin_span">[</span>
+      <div class="campaign naraka_results">
+        <h2 class="campaign_header">
+          <span class="assassin_span">[</span>
           THE RESULTS
-          <span
-            class="assassin_span"
-            >]</span
-          ></h2>
-        <div class="campaign_campaign">
-          <div class="cf">
-            <h2><span class="plus-sign">+</span>2.12M</h2>
-            <p>YouTube views.</p>
+          <span class="assassin_span">]</span>
+        </h2>
+
+        <div class="naraka_results_grid">
+          <div class="naraka_results_column naraka_results_column--left">
+            <div class="naraka_results_panel naraka_results_panel--us">
+              <h3 class="naraka_results_label">
+                <span class="assassin_span">[</span>
+                US CAMPAIGN
+                <span class="assassin_span">]</span>
+              </h3>
+              <div class="naraka_results_platforms naraka_results_platforms--us">
+                <div class="naraka_results_platform naraka_results_platform--youtube">
+                  <div class="naraka_results_platform_brand">
+                    <img src="/images/youtube.svg" alt="YouTube" />
+                    <span>YouTube</span>
+                  </div>
+                  <div class="naraka_results_platform_text">
+                    <p class="naraka_results_platform_value">2.12M</p>
+                    <p class="naraka_results_platform_label">Views</p>
+                  </div>
+                </div>
+                <div class="naraka_results_platform naraka_results_platform--tiktok">
+                  <div class="naraka_results_platform_brand">
+                    <img src="/images/tiktok-colored.svg" alt="TikTok" />
+                    <span>TikTok</span>
+                  </div>
+                  <div class="naraka_results_platform_text">
+                    <p class="naraka_results_platform_value">427K</p>
+                    <p class="naraka_results_platform_label">Views</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="naraka_results_panel naraka_results_panel--community">
+              <h3 class="naraka_results_label">
+                <span class="assassin_span">[</span>
+                COMMUNITY REACTION
+                <span class="assassin_span">]</span>
+              </h3>
+              <img
+                src="/images/naraka-community-reactions.webp"
+                alt="Community reaction to the NARAKA BLADEPOINT Whipsword campaign"
+                class="naraka_results_image"
+              />
+            </div>
+
+            <div class="naraka_results_panel naraka_results_panel--total">
+              <h3 class="naraka_results_label">
+                <span class="assassin_span">[</span>
+                TOTAL CAMPAIGN
+                <span class="assassin_span">]</span>
+              </h3>
+              <div class="naraka_results_totals">
+                <div class="naraka_results_total_stat">
+                  <h2>5</h2>
+                  <p>Videos</p>
+                </div>
+                <div class="naraka_results_total_stat">
+                  <h2>3.1M</h2>
+                  <p>Views</p>
+                </div>
+                <div class="naraka_results_total_stat">
+                  <h2>43.7K</h2>
+                  <p>Likes</p>
+                </div>
+                <div class="naraka_results_total_stat">
+                  <h2>2.4K</h2>
+                  <p>Saves</p>
+                </div>
+                <div class="naraka_results_total_stat naraka_results_total_stat--wide">
+                  <h2>9.9K</h2>
+                  <p>Shares</p>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="cf">
-            <h2><span class="plus-sign">+</span>427K</h2>
-            <p>TikTok views</p>
-          </div>
-          <div class="cf">
-            <h2><span class="plus-sign">+</span>3.1M</h2>
-            <p>Total campaign views across USA and China campaigns.</p>
+
+          <div class="naraka_results_column naraka_results_column--right">
+            <div class="naraka_results_panel naraka_results_panel--china">
+              <h3 class="naraka_results_label">
+                <span class="assassin_span">[</span>
+                CHINA CAMPAIGN
+                <span class="assassin_span">]</span>
+              </h3>
+              <div class="naraka_results_platforms">
+                <div class="naraka_results_platform naraka_results_platform--douyin">
+                  <img
+                    src="/images/tiktok-china.webp"
+                    alt="Douyin"
+                    class="naraka_results_platform_logo"
+                  />
+                  <div class="naraka_results_platform_text">
+                    <p class="naraka_results_platform_value">+548K</p>
+                    <p class="naraka_results_platform_label">Views</p>
+                  </div>
+                </div>
+                <div class="naraka_results_platform naraka_results_platform--bilibili">
+                  <img
+                    src="/images/bilibili.webp"
+                    alt="Bilibili"
+                    class="naraka_results_platform_logo"
+                  />
+                  <div class="naraka_results_platform_text">
+                    <p class="naraka_results_platform_value">+57K</p>
+                    <p class="naraka_results_platform_label">Views</p>
+                  </div>
+                </div>
+                <div class="naraka_results_platform naraka_results_platform--rednote">
+                  <img
+                    src="/images/rednote.webp"
+                    alt="Red Note"
+                    class="naraka_results_platform_logo"
+                  />
+                  <div class="naraka_results_platform_text">
+                    <p class="naraka_results_platform_value">+25K</p>
+                    <p class="naraka_results_platform_label">Views</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="naraka_results_panel naraka_results_panel--official">
+              <h3 class="naraka_results_label">
+                <span class="assassin_span">[</span>
+                OFFICIAL BRAND REACTION
+                <span class="assassin_span">]</span>
+              </h3>
+              <img
+                src="/images/naraka-official-brand-reaction.webp"
+                alt="Official NARAKA BLADEPOINT brand reaction to the Whipsword collaboration"
+                class="naraka_results_image"
+              />
+
+              <p class="naraka_results_official_text">
+                NARAKA: BLADEPOINT partnered with the world-renowned bladesmith team Baltimore Knife & Sword to create a 1:1 real-life replica of the legendary whip sword. The moment this sword steps out of NARAKA and into reality, “Unbound in body, limitless in the way of combat” becomes more than just a slogan. Special thanks to the master craftsmen at Man at Arms: Reforged for their incredible work.
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -152,11 +290,7 @@
 
 
       <div class="assassin_images_category">
-        <img src="/images/nakara-big-image-1.webp" alt="" data-desktop />
-        <img src="/images/nakara-big-image-2.webp" alt="" data-desktop />
         <img src="/images/nakara-big-image-3.webp" alt="" data-desktop />
-        <img src="/images/nakara-big-image-1.webp" alt="" data-mobile />
-        <img src="/images/nakara-big-image-2.webp" alt="" data-mobile />
         <img src="/images/nakara-big-image-3.webp" alt="" data-mobile />
       </div>
       <RelatedWork />

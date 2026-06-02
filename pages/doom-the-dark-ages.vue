@@ -11,7 +11,7 @@
       </div>
       <video class="video_bgg" autoplay muted loop playsinline>
         <source
-          src="https://res.cloudinary.com/dvk4u5mgl/video/upload/v1770833692/Bethesda_ESO_CaseStudy_Video_1_jksipb.mp4"
+          src="https://res.cloudinary.com/dcdfqrryo/video/upload/v1779890186/Doom_jqsxan.mp4"
         />
       </video>
       <div class="assassin_challenges">
@@ -28,6 +28,11 @@
           <br />
           All in all, we wanted to honor the game’s craftsmanship and creativity through tangible, real-world engineering.
         </h2>
+      </div>
+
+      <div class="assassin_images_category">
+        <img src="/images/doom-big-image-1.webp" alt="" data-desktop />
+        <img src="/images/doom-big-image-1.webp" alt="" data-mobile />
       </div>
 
       <div class="assassin_approach">
@@ -59,6 +64,11 @@
         </div>
       </div>
 
+      <div class="assassin_images_category">
+        <img src="/images/doom-big-image-2.webp" alt="" data-desktop />
+        <img src="/images/doom-big-image-2.webp" alt="" data-mobile />
+      </div>
+
       <div class="section-flex doom_execution-highligts_flex">
         <h3 class="section-flex_left">
           <span class="assassin_span">[</span>
@@ -80,25 +90,130 @@
         </div>
       </div>
 
-      <div class="campaign">
-        <h2 class="campaign_header"><span class="assassin_span">[</span>
-          THE RESULTS
-          <span
-            class="assassin_span"
-            >]</span
-          ></h2>
-        <div class="campaign_campaign">
-          <div class="cf">
-            <h2><span class="plus-sign">+</span>10M</h2>
-            <p>Creator reaction views.</p>
+      <div class="campaign doom_results">
+        <h2 class="campaign_header">
+          <span class="assassin_span">[</span>
+          RESULTS
+          <span class="assassin_span">]</span>
+        </h2>
+
+        <div class="doom_results_grid">
+          <div class="doom_results_column doom_results_column--left">
+            <div class="doom_results_stat cf">
+              <h2><span class="plus-sign">+</span>32M</h2>
+              <p>Total campaign views across <br> YouTube, TikTok, IG, and X.</p>
+            </div>
+
+            <div class="doom_results_panel community-reaction-panel">
+              <h3 class="doom_results_panel_label community-reaction-label">
+                <span class="assassin_span">[</span>
+                COMMUNITY REACTION
+                <span class="assassin_span">]</span>
+              </h3>
+              <img
+                src="/images/doom-testimonials.webp"
+                alt="Community reaction to the DOOM Shield Saw campaign"
+                class="doom_results_image"
+                data-desktop
+              />
+              <img
+                src="/images/doom-testimonials.webp"
+                alt="Community reaction to the DOOM Shield Saw campaign"
+                class="doom_results_image"
+                data-mobile
+              />
+            </div>
+
+            <div class="earned-media-container">
+              <div class="doom_results_panel">
+                <h3 class="doom_results_panel_label">
+                  <span class="assassin_span">[</span>
+                  EARNED MEDIA
+                  <span class="assassin_span">]</span>
+                </h3>
+                <div class="doom_results_stat doom_results_stat--compact cf">
+                  <h2><span class="plus-sign">+</span>380K</h2>
+                  <p>Daily Mail</p>
+                </div>
+            </div>
+            <img
+                src="/images/daily-mail.webp"
+                alt="Daily Mail coverage of the DOOM Shield Saw"
+                class="doom_results_image"
+                data-desktop
+              />
+              <img
+                src="/images/daily-mail.webp"
+                alt="Daily Mail coverage of the DOOM Shield Saw"
+                class="doom_results_image"
+                data-mobile
+              />
+            </div>
           </div>
-          <div class="cf">
-            <h2><span class="plus-sign">+</span>380K </h2>
-            <p>Daily mail views</p>
-          </div>
-          <div class="cf">
-            <h2><span class="plus-sign">+</span>33M</h2>
-            <p>Total campaign views across YouTube, TikTok, IG, and X.</p>
+
+          <div class="doom_results_column doom_results_column--right">
+            <div class="doom_results_panel">
+              <h3 class="doom_results_panel_label total-campaign-views-label">
+                <span class="assassin_span">[</span>
+                TOTAL CAMPAIGN VIEWS
+                <span class="assassin_span">]</span>
+              </h3>
+              <div class="doom_results_socials">
+                <div class="doom_results_social doom_results_social--youtube">
+                  <img src="/images/youtube.svg" alt="YouTube" />
+                  <div class="doom_results_social_text">
+                    <p class="doom_results_social_value">+2.3M</p>
+                    <p class="doom_results_social_label">Views</p>
+                  </div>
+                </div>
+                <div class="doom_results_social doom_results_social--tiktok">
+                  <img src="/images/tiktok-colored.svg" alt="TikTok" />
+                  <div class="doom_results_social_text">
+                    <p class="doom_results_social_value">+3.8M</p>
+                    <p class="doom_results_social_label">Views</p>
+                  </div>
+                </div>
+                <div class="doom_results_social doom_results_social--instagram">
+                  <img src="/images/instagram.svg" alt="Instagram" />
+                  <div class="doom_results_social_text">
+                    <p class="doom_results_social_value">+25M</p>
+                    <p class="doom_results_social_label">Views</p>
+                  </div>
+                </div>
+                <div class="doom_results_social doom_results_social--x">
+                  <img src="/images/x.svg" alt="X" />
+                  <div class="doom_results_social_text">
+                    <p class="doom_results_social_value">+1.0M</p>
+                    <p class="doom_results_social_label">Views</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="doom_results_influencer_card">
+              <img
+                src="/images/tanktolman-ig.webp"
+                alt="Tank Tolman reaction to the DOOM Shield Saw"
+                class="doom_results_influencer doom_results_influencer--full"
+              />
+              <img
+                src="/images/tanktolman.webp"
+                alt="Tank Tolman reaction to the DOOM Shield Saw"
+                class="doom_results_influencer doom_results_influencer--photo"
+              />
+            </div>
+
+            <div class="doom_results_panel earned-media-panel">
+              <h3 class="doom_results_panel_label">
+                <span class="assassin_span">[</span>
+                EARNED MEDIA
+                <span class="assassin_span">]</span>
+              </h3>
+              <div class="doom_results_stat doom_results_stat--compact cf">
+                <h2><span class="plus-sign">+</span>10M</h2>
+                <p>Reaction Video Views</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -147,34 +262,7 @@
 
 
       <div class="assassin_images_category">
-        <img src="/images/doom-big-image-1.webp" alt="" data-desktop />
-        <img src="/images/doom-big-image-2.webp" alt="" data-desktop />
-        <img src="/images/doom-big-image-3.webp" alt="" data-desktop />
-        <img src="/images/doom-big-image-1.webp" alt="" data-mobile />
-        <img src="/images/doom-big-image-2.webp" alt="" data-mobile />
         <img src="/images/doom-big-image-3.webp" alt="" data-mobile />
-      </div>
-      <div class="result">
-        <h2 class="result_header">[RESULTS]</h2>
-        <div class="result_result">
-          <div>
-            <h2>GOING BEYOND:</h2>
-            <p>
-              The campaign exceeded expectations by generating over 1M+ views
-              and 24M+ impressions across our platforms, sparking widespread
-              discussion online.
-            </p>
-          </div>
-          <div>
-            <h2>COMMUNITY ENGAGEMENT:</h2>
-            <p>
-              The man at arms: regorged episode created a deeper connection
-              between players and the game world, with fans praising the
-              attention to detail and the tangible representation of an exciting
-              new in-game item.
-            </p>
-          </div>
-        </div>
       </div>
       <RelatedWork />
     </div>
