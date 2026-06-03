@@ -31,7 +31,7 @@ const relatedItems: RelatedItem[] = [
     title: "Assassin's Creed: Shadows",
   },
   {
-    href: '/elderScroll',
+    href: '/the-elder-scrolls-online-gold-road',
     imageSrc: '/images/elder-scroll-work.webp',
     title: 'The Elder Scrolls Online: Gold Road',
   },

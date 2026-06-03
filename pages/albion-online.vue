@@ -185,28 +185,6 @@
           </div>
         </div>
       </div>
-
-        <div class="section-flex doom_takeaways_flex">
-        <h3 class="section-flex_left">
-          <span class="assassin_span">[</span>
-          TAKEAWAYS
-          <span
-            class="assassin_span"
-            >]</span
-          >
-        </h3>
-        <div class="section-flex_right doom_execution-highligts_flex_right">
-          <div
-            v-for="(highlight, index) in ALBION_EXECUTION_TAKEAWAYS"
-            :key="index"
-            class="section-flex_right_content"
-          >
-            <h2>{{ highlight.title }}</h2>
-            <p>{{ highlight.description }}</p>
-          </div>
-        </div>
-      </div>
-
       <div class="assassin_images_category">
         <img src="/images/albion-big-image-3.webp" alt="" data-desktop />
         <img src="/images/albion-big-image-3.webp" alt="" data-mobile />

@@ -44,21 +44,21 @@
         </h3>
 
         <div class="assassin_challenges_right">
-          <p>The smiths at Baltimore Knife & Sword forged Tailless with meticulous accuracy based on the in-game design.
+          <p>
+            The smiths at Baltimore Knife & Sword forged Tailless with meticulous accuracy based on the in-game design.
 
           <br />
           <br />
-          Since Tailless is the source of Miyabi’s power, the blade and the flame needed to feel alive—electric, lethal, and legendary. The result was otherworldy yet believable.
+          Since Tailless is the source of Miyabi's power, the blade and the flame needed to feel alive: electric, lethal, and legendary. The result was otherworldly yet believable.
           
           <br />
           <br />
 
           Every choice in production was guided by Miyabi’s lore and family legacy. This ensured we created a weapon with generational power and history.
-
           <br />
           <br />
-
-          This build fused real-world blacksmithing techniques with the stylized world of ZZZ.</p>
+          This build fused real-world blacksmithing techniques with the stylized world of ZZZ.
+          </p>
           <div class="zenless-image-grid">
             <img src="/images/zenless-grid-image-1.webp" alt="" />
             <img src="/images/zenless-grid-image-2 .webp" alt="" />

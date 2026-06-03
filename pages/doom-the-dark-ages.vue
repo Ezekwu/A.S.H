@@ -45,7 +45,7 @@
 
         <div class="assassin_approach_righter">
           <h2 class="assassin_approach_right">
-          Our approach always emphasizes the making-of. We gave fans a close-up look at how the Shield Saw came together piece by piece—and what it’s capable of.
+          Our approach always emphasizes the making-of. We gave fans a close-up look at how the Shield Saw came together piece by piece, and what it's capable of.
           </h2>
           <div class="doom_process">
             <div>

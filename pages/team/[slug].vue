@@ -13,7 +13,7 @@
         <p class="team_detail_title">{{ member.title }}</p>
         <img
           class="team_detail_image"
-          :src="member.image"
+          :src="member.detailedImage ? member.detailedImage : member.image"
           :alt="member.name"
         />
       </div>

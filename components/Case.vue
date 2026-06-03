@@ -11,7 +11,7 @@
             <h5>Brand</h5>
             <p>Bethesda Softworks</p>
           </div>
-          <h3>Doom The Dark <br /><span class="shadows">Ages</span></h3>
+          <h3>Doom: The Dark <br /><span class="shadows">Ages</span></h3>
           <div class="readmore_div">
             <img
               src="/images/doom-of-the-dark-ages-work.webp"
@@ -58,7 +58,7 @@
             <h5>Brand</h5>
             <p>NetEase Games</p>
           </div>
-          <h3>Naraka <br /><span class="shadows">Bladepoint</span></h3>
+          <h3>Naraka: <br /><span class="shadows">Bladepoint</span></h3>
           <div class="readmore_div">
             <img
               src="/images/nakara-work.webp"

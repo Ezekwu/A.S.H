@@ -8,6 +8,7 @@ export type TeamMember = {
   name: string;
   title: string;
   image: string;
+  detailedImage?: string;
   externalLink?: string;
   detailPage?: boolean;
   background?: string[];
@@ -34,6 +35,7 @@ export const TEAM_MEMBERS: Record<string, TeamMember> = {
     name: "Dat Tran",
     title: "Co-Founder/Head of Business Dev",
     image: "/images/j3.webp",
+    detailedImage: "/images/dat-colored.webp",
     detailPage: true,
       
     background: [
