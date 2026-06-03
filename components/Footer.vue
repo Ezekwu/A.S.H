@@ -40,7 +40,7 @@
       </NuxtLink>
     </div>
     <div class="third_footer">
-      <h3>Copyright © 2024 ASH Entertainment</h3>
+      <h3>Copyright © {{ currentYear }} ASH Entertainment</h3>
     </div>
 
     <div class="nined">
@@ -59,6 +59,8 @@
 </template>
 
 <script setup lang="ts">
+const currentYear = new Date().getFullYear();
+
 function scrollTo(id: string) {
   window.lenis.scrollTo(id);
 }

@@ -36,6 +36,13 @@
           reach to a broader audience.
         </h2>
       </div>
+
+      <div class="assassin_images_category">
+        <img src="/images/assassin-big-image-2.webp" alt="" data-desktop />
+        
+        <img src="/images/assassin-big-image-2.webp" alt="" data-mobile />
+        
+      </div>
       <!-- <div class="assassin_approach">
         <h3 class="assassin_approach_left">
           <span class="assassin_span">[</span>OUR APPROACH<span
@@ -93,48 +100,74 @@
             <img src="/images/kkd.webp" alt="" />
           </div>
           <p>
-            We brought iconic weapons to life in two episodes of Man at Arms:
-            Reforged. Nace’s Kusarigama and Yasuke’s Katana and Wakizashi were
-            recreated using authentic Japanese smithing techniques and imported
-            black sand. Episodes premiered on the AWE me YouTube channel with
-            short-form content across other platforms (TikTok, Instagram,
-            Facebook, X).
+          We brought iconic weapons to life in two episodes of Man at Arms: Reforged. Naoe’s Kusarigama and Yasuke’s Katana and Wakizashi were recreated using authentic Japanese smithing techniques and imported black sand.  Episodes premiered on the AWE me YouTube channel with short-form content across other platforms (TikTok, Instagram, Facebook, X).
           </p>
           <div class="new_asasssin_secondimg">
             <img src="/images/kke.webp" alt="" />
-            <img src="/images/assassin-big-image-1.webp" alt="" />
+            <img src="/images/yasuke-as.webp" alt="" />
             <img src="/images/kkg.webp" alt="" />
             <img src="/images/kkh.webp" alt="" />
           </div>
         </div>
       </div>
+
+      <div class="assassin_images_category">
+        <img src="/images/assassin-big-image-1.webp" alt="" data-desktop />
+        <img src="/images/assassin-big-image-1.webp" alt="" data-mobile />
+      </div>
       <div class="campaign">
-        <h2 class="campaign_header">CAMPAIGN OVERVIEW</h2>
-        <div class="campaign_campaign">
-          <div class="cf">
-            <h2>36M</h2>
-            <p>Delivered Impressions</p>
+        <h2 class="campaign_header">
+          <span class="assassin_span">[</span>
+          CAMPAIGN OVERVIEW
+          <span class="assassin_span">]</span>
+        </h2>
+        <div class="campaign_overview">
+          <div class="campaign_overview_panel">
+            <h3 class="campaign_overview_label">
+              <span class="assassin_span">[</span>
+              MEDIA CAMPAIGN
+              <span class="assassin_span">]</span>
+            </h3>
+            <div class="campaign_overview_stats">
+              <div class="campaign_overview_stat">
+                <h2>12</h2>
+                <p>Videos</p>
+              </div>
+              <div class="campaign_overview_stat">
+                <h2>3.2M</h2>
+                <p>Views</p>
+              </div>
+              <div class="campaign_overview_stat">
+                <h2>36M</h2>
+                <p>Delivered Impressions</p>
+              </div>
+            </div>
           </div>
-          <div class="cf">
-            <h2>2</h2>
-            <p>Interactive Exhibits</p>
-          </div>
-          <div class="cf">
-            <h2>12</h2>
-            <p>Videos Produced</p>
-          </div>
-          <div class="cf">
-            <h2>7</h2>
-            <p>Social Posts</p>
+          <div class="campaign_overview_panel">
+            <h3 class="campaign_overview_label">
+              <span class="assassin_span">[</span>
+              UBISOFT FORWARD ACTIVATION
+              <span class="assassin_span">]</span>
+            </h3>
+            <div class="campaign_overview_stats">
+              <div class="campaign_overview_stat">
+                <h2>2</h2>
+                <p>Interactive Exhibits</p>
+              </div>
+              <div class="campaign_overview_stat">
+                <h2>7</h2>
+                <p>Social Posts</p>
+              </div>
+              <div class="campaign_overview_stat">
+                <h2>3</h2>
+                <p>Custom Weapons</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
       <div class="assassin_images_category">
-        <img src="/images/assassin-big-image-2.webp" alt="" data-desktop />
-        <img src="/images/assassin-big-image-1.webp" alt="" data-desktop />
         <img src="/images/assassin-big-image-3.webp" alt="" data-desktop />
-        <img src="/images/assassin-big-image-2.webp" alt="" data-mobile />
-        <img src="/images/assassin-big-image-1.webp" alt="" data-mobile />
         <img src="/images/assassin-big-image-3.webp" alt="" data-mobile />
       </div>
 

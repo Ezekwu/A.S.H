@@ -39,7 +39,7 @@
         <div class="case_one">
           <div class="brand_div">
             <h5>Brand</h5>
-            <p>Hoyoverse</p>
+            <p>HoYoverse</p>
           </div>
           <h3>Zenless Zone <br /><span class="shadows">Zero</span></h3>
           <div class="readmore_div">
