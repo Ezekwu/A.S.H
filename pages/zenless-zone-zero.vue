@@ -5,7 +5,7 @@
       <div class="assassin_header">
         <div class="assasin_left">
           <h3>Brand</h3>
-          <p>Hoyoverse</p>
+          <p>HoYoverse</p>
         </div>
         <h3 class="project-heading">ZENLESS ZONE <br> ZERO</h3>
       </div>

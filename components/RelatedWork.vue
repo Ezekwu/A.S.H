@@ -36,7 +36,7 @@ const relatedItems: RelatedItem[] = [
     title: 'The Elder Scrolls Online: Gold Road',
   },
   {
-    href: '/gameOfThrones',
+    href: '/game-of-thrones-legends',
     imageSrc: '/images/game-of-thrones-work.webp',
     title: 'Game of Thrones: Legends',
   },

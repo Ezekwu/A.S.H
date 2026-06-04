@@ -39,7 +39,7 @@
           </div>
         </div>
       </NuxtLink>
-      <NuxtLink href="/gameOfThrones">
+      <NuxtLink href="/game-of-thrones-legends">
         <div class="case_one">
           <div class="brand_div">
             <h5>Brand</h5>

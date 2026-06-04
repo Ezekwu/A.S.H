@@ -18,6 +18,7 @@ export default defineNuxtConfig({
   ],
   routeRules: {
     "/elderScroll": { redirect: "/the-elder-scrolls-online-gold-road" },
+    "/gameOfThrones": { redirect: "/game-of-thrones-legends" },
   },
   app:{
     head:{

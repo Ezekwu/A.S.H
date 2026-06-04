@@ -1,7 +1,5 @@
-in
 <template>
-  <section class="hero">
-    <div class="video-bg">
+  <section class="hero">    <div class="video-bg">
       <video class="video_bgg" autoplay muted loop playsinline>
         <source
           src="https://res.cloudinary.com/dvk4u5mgl/video/upload/v1770832475/Lower_Bitwrate_30_second_reel_ohern1.mp4"
