@@ -113,15 +113,12 @@ export const ALBION_EXECUTION_LEARNINGS = [
     title: "COMMUNITY AS CAMPAIGN:",
     description: "By building the event around creators and their guilds, the promotion created its own attention. Every stream, every alliance, every betrayal was organic content that no ad buy could replicate."
   },
-];
-
-
-export const ALBION_EXECUTION_TAKEAWAYS = [
   {
     title: "CROSS-AUDIENCE BOOST:",
     description: "Combining Albion's player base, Twitch's creator infrastructure, and Man at Arms' craft audience meant the campaign reached entirely different audiences who all had a reason to care."
   },
 ];
+
 
 export const ALBION_EXECUTION_IMPACT = [
   {

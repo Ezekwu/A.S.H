@@ -19,7 +19,7 @@
   font-family: "Haas Grot Disp Trial";
   font-size: 4.8rem;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 100%; /* 4.8rem */
   letter-spacing: -0.096rem;
   @include media("<phone") {
@@ -27,7 +27,6 @@
     font-family: "Haas Grot Disp Trial";
     font-size: 3.2rem;
     font-style: normal;
-    font-weight: 500;
     line-height: 100%; /* 3.2rem */
     letter-spacing: -0.064rem;
   }

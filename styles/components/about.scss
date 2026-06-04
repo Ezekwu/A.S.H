@@ -56,44 +56,63 @@
 }
 
 .about_collage {
-  display: flex;
+  overflow: hidden;
   padding: 12rem 0;
-  justify-content: center;
-  align-items: center;
-  gap: 1.2rem;
   align-self: stretch;
   border-bottom: 1px solid #171717;
-  animation: scrolling 7.5s linear alternate infinite;
+  width: 100%;
+
   @include media("<phone") {
-    display: flex;
     padding: 10rem 0;
-    justify-content: center;
-    align-items: center;
-    gap: 1.2rem;
-    align-self: stretch;
-    animation: scrolling-mobile 15s linear alternate infinite;
   }
+}
+
+.about_collage_track {
+  display: flex;
+  width: max-content;
+  animation: about-marquee 30s linear infinite;
+
+  &:hover {
+    animation-play-state: paused;
+  }
+
+  @include media("<phone") {
+    animation-duration: 35s;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    animation: none;
+  }
+}
+
+.about_collage_group {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  flex-shrink: 0;
+  padding-right: 1.2rem;
 }
 
 .about_collage img {
   width: 45rem;
-  height: 35rem;
+  height: 35rem !important;
+  flex-shrink: 0;
+  display: block;
+  object-fit: cover;
+  filter: none;
+  transition: filter 0.3s ease;
 }
 
-@keyframes scrolling {
-  0% {
-    transform: translateX(72.3);
-  }
-  100% {
-    transform: translateX(-72.3%);
-  }
+.about_collage:has(img:hover) img:not(:hover) {
+  filter: grayscale(100%);
 }
 
-@keyframes scrolling-mobile {
+@keyframes about-marquee {
   0% {
-    transform: translateX(425%);
+    transform: translateX(0);
   }
+
   100% {
-    transform: translateX(-425%);
+    transform: translateX(-50%);
   }
 }

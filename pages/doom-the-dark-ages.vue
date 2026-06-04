@@ -5,7 +5,7 @@
       <div class="assassin_header">
         <div class="assasin_left">
           <h3>Brand</h3>
-          <p>BETHESDA SOFTWORK</p>
+          <p>Bethesda Softworks</p>
         </div>
         <h3 class="project-heading">DOOM THE DARK <br> AGES</h3>
       </div>
@@ -45,7 +45,7 @@
 
         <div class="assassin_approach_righter">
           <h2 class="assassin_approach_right">
-          Our approach always emphasizes the making-of. We gave fans a close-up look at how the Shield Saw came together piece by piece—and what it’s capable of.
+          Our approach always emphasizes the making-of. We gave fans a close-up look at how the Shield Saw came together piece by piece, and what it's capable of.
           </h2>
           <div class="doom_process">
             <div>

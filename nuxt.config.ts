@@ -16,6 +16,10 @@ export default defineNuxtConfig({
     "@nuxt/image",
     "nuxt-svgo",
   ],
+  routeRules: {
+    "/elderScroll": { redirect: "/the-elder-scrolls-online-gold-road" },
+    "/gameOfThrones": { redirect: "/game-of-thrones-legends" },
+  },
   app:{
     head:{
       link:[

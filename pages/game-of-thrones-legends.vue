@@ -5,7 +5,7 @@
       <div class="assassin_header">
         <div class="assasin_left">
           <h3>Brand</h3>
-          <p>ZYNGA</p>
+          <p>Zynga</p>
         </div>
         <h3 class="assassin_right">Game of Thrones: Legends</h3>
       </div>
