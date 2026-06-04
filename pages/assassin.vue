@@ -5,7 +5,7 @@
       <div class="assassin_header">
         <div class="assasin_left">
           <h3>Brand</h3>
-          <p>UBISOFT</p>
+          <p>Ubisoft</p>
         </div>
         <h3 class="assassin_right">Assassin's Creed Shadows</h3>
       </div>

@@ -12,7 +12,7 @@
 
           <h3>Brand</h3>
 
-          <p>BETHESDA SOFTWORK</p>
+          <p>Bethesda Softworks</p>
 
         </div>
 

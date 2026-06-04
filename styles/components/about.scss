@@ -70,7 +70,11 @@
 .about_collage_track {
   display: flex;
   width: max-content;
-  animation: about-marquee 45s linear infinite;
+  animation: about-marquee 30s linear infinite;
+
+  &:hover {
+    animation-play-state: paused;
+  }
 
   @include media("<phone") {
     animation-duration: 35s;
@@ -95,6 +99,12 @@
   flex-shrink: 0;
   display: block;
   object-fit: cover;
+  filter: none;
+  transition: filter 0.3s ease;
+}
+
+.about_collage:has(img:hover) img:not(:hover) {
+  filter: grayscale(100%);
 }
 
 @keyframes about-marquee {
