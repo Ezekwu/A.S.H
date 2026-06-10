@@ -4,9 +4,6 @@
     <div class="work_page_hero" aria-labelledby="work-page-heading">
       <div class="work_page_hero_inner">
         <h1 id="work-page-heading" class="work_page_hero_title">Our work</h1>
-        <p class="work_page_hero_tagline">
-          Some of the work that still makes us feel something.
-        </p>
       </div>
     </div>
     <div class="case_content work_page_case_content">
@@ -86,7 +83,7 @@
           </div>
         </div>
       </NuxtLink>
-      <NuxtLink href="/nakara-blade-point">
+      <NuxtLink href="/naraka-blade-point">
         <div class="case_one">
           <div class="brand_div">
             <h5>Brand</h5>

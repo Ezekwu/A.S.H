@@ -7,7 +7,7 @@
           <h3>Brand</h3>
           <p>Bethesda Softworks</p>
         </div>
-        <h3 class="project-heading">DOOM THE DARK <br> AGES</h3>
+        <h3 class="project-heading">DOOM: THE DARK <br> AGES</h3>
       </div>
       <video class="video_bgg" autoplay muted loop playsinline>
         <source

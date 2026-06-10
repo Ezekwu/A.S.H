@@ -28,7 +28,7 @@ const relatedItems: RelatedItem[] = [
   {
     href: '/assassin',
     imageSrc: '/images/assasin-work.webp',
-    title: "Assassin's Creed: Shadows",
+    title: "Assassin's Creed Shadows",
   },
   {
     href: '/the-elder-scrolls-online-gold-road',
@@ -41,9 +41,9 @@ const relatedItems: RelatedItem[] = [
     title: 'Game of Thrones: Legends',
   },
   {
-    href: '/nakara-blade-point',
+    href: '/naraka-blade-point',
     imageSrc: '/images/nakara-work.webp',
-    title: 'Naraka: Blade Point',
+    title: 'NARAKA: BLADEPOINT',
   },
   {
     href: '/doom-the-dark-ages',

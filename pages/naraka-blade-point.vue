@@ -7,7 +7,7 @@
           <h3>Brand</h3>
           <p>NetEase Games</p>
         </div>
-        <h3 class="project-heading">NARAKA <br> BLADEPOINT</h3>
+        <h3 class="project-heading">NARAKA: <br> BLADEPOINT</h3>
       </div>
       <video class="video_bgg" autoplay muted loop playsinline>
         <source

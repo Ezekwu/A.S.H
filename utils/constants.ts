@@ -57,10 +57,6 @@ export const NARAKA_EXECUTION_HIGHLIGHTS = [
     description: "Content posted across ASH channels (US) and NARAKA's official Bilibili, Xiaohongshu, and Douyin accounts (China)."
   },
   {
-    title: "BEHIND-THE-SCENES:",
-    description: "An in-depth look at the engineering and craftsmanship that brought a video game weapon to life."
-  },
-  {
     title: "SHORT-FORM SERIES:",
     description: "4 dedicated short-form videos across YouTube Shorts and TikTok, including one TikTok exceeding 400K views."
   },
@@ -131,7 +127,7 @@ export const ALBION_EXECUTION_IMPACT = [
   },
   {
     title: "EXPANDED REACH:",
-    description: "Reached beyond gaming into forging, fine art, cosplay, and prop-making audiences—boosting cross-audience visibility."
+    description: "Reached beyond gaming into forging, fine art, cosplay, and prop-making audiences, boosting cross-audience visibility. "
   },
   {
     title: "DEEPENED INVESTMENT:",

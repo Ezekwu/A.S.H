@@ -76,7 +76,7 @@
         <p class="new_assassin_approach">[OUR APPROACH]</p>
         <div class="new_assasin_div">
           <p>
-            To ignite excitement for Assassin's Creed: Shadows at Ubisoft
+            To ignite excitement for Assassin’s Creed Shadows at Ubisoft
             Forward, we brought the games arsenal to life. Attendees including
             influencers and press, witnessed a live forging demonstration
             creating unique Kunai bottle openers and Nobunaga's insignia gold

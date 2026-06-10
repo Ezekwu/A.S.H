@@ -32,6 +32,13 @@
           of the franchise while highlighting the game's unique features.
         </h2>
       </div>
+
+      <div class="assassin_images_category">
+        <img src="/images/zynga1.webp" class="zynga1" alt="" data-desktop />
+      
+        <img src="/images/zynga1.webp" alt="" data-mobile />
+        
+      </div>
       <!-- <div class="assassin_approach">
         <h3 class="assassin_approach_left">
           <span class="assassin_span">[</span>OUR APPROACH<span
@@ -94,6 +101,11 @@
           </div>
         </div>
       </div>
+
+      <div class="assassin_images_category">
+        <img src="/images/a12.webp" alt="" data-desktop />
+        <img src="/images/a12.webp" alt="" data-mobile />
+      </div>
       <div class="result">
         <h2 class="result_header">[RESULTS]</h2>
         <div class="result_result">
@@ -131,11 +143,7 @@
       </div>
 
       <div class="assassin_images_category">
-        <img src="/images/zynga1.webp" class="zynga1" alt="" data-desktop />
-        <img src="/images/a12.webp" alt="" data-desktop />
         <img src="/images/a13.webp" alt="" data-desktop />
-        <img src="/images/zynga1.webp" alt="" data-mobile />
-        <img src="/images/a12.webp" alt="" data-mobile />
         <img src="/images/a13.webp" alt="" data-mobile />
       </div>
 

@@ -52,13 +52,13 @@
           </div>
         </div>
       </NuxtLink>
-      <NuxtLink href="/nakara-blade-point">
+      <NuxtLink href="/naraka-blade-point">
         <div class="case_one">
           <div class="brand_div">
             <h5>Brand</h5>
             <p>NetEase Games</p>
           </div>
-          <h3>Naraka: <br /><span class="shadows">Bladepoint</span></h3>
+          <h3>NARAKA: <br /><span class="shadows">BLADEPOINT</span></h3>
           <div class="readmore_div">
             <img
               src="/images/nakara-work.webp"
