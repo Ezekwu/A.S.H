@@ -61,7 +61,7 @@
           </p>
           <div class="zenless-image-grid">
             <img src="/images/zenless-grid-image-1.webp" alt="" />
-            <img src="/images/zenless-grid-image-2 .webp" alt="" />
+            <img src="/images/zenless-grid-image-2.webp" alt="" />
             <img src="/images/zenless-grid-image-3.webp" alt="" />
           </div>
         </div>
