@@ -158,10 +158,16 @@
     margin-bottom: 1rem;
   }
 
-  .earned-media-panel {
-    max-height: fit-content;
-    min-height: 0;
-    overflow: hidden;
+  @include media(">=phone") {
+    .earned-media-panel {
+      flex: 1;
+      min-height: 0;
+
+      .doom_results_stat--compact {
+        flex: 1;
+        justify-content: center;
+      }
+    }
   }
 }
 
@@ -256,6 +262,9 @@
   }
 }
 
+.doom_results_influencer.doom_results_influencer--photo {
+  object-fit: contain;
+}
 .doom_results_panel_label {
   color: #fff;
   font-family: "Haas Grot Disp Trial";

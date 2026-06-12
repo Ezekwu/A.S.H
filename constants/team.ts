@@ -22,7 +22,7 @@ export const TEAM_MEMBERS: Record<string, TeamMember> = {
     name: "Brendan Kennedy",
     title: "Co-Founder/Executive Producer",
     image: "/images/j2.webp",
-    detailPage: true,
+    // detailPage: true,
     background: [
       "Brendan Kennedy is a producer and director with over 10 years of experience delivering video production across video game marketing, esports, and branded content. As CoFounder of ASH Entertainment, he leads the company's video production services alongside Co-Founder and Head of Business Development Dat Tran.",
       "He has a demonstrated history of working in the digital branded content world, having worked at Riot Games and produced content for Activision Blizzard, Bethesda, 2K, HoYoverse, and Krafton Games, among others. His experience in the gaming community has given him valuable insight into what players are looking for.",
@@ -36,7 +36,7 @@ export const TEAM_MEMBERS: Record<string, TeamMember> = {
     title: "Co-Founder/Head of Business Dev",
     image: "/images/j3.webp",
     detailedImage: "/images/dat-colored.webp",
-    detailPage: true,
+    // detailPage: true,
       
     background: [
       "Dat Tran is a producer and business development executive with over 10 years of experience delivering video production across music, gaming, and branded content. As Co-Founder of ASH Entertainment, he leads the company's video production services alongside Co-Founder and Executive Producer Brendan Kennedy, bringing a unique blend of traditional media and Hollywood studio experience to build an independent, creator-driven model grounded in real industry insight.",
