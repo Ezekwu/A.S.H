@@ -97,7 +97,7 @@
             <img src="/images/aa5.webp" alt="" />
             <img src="/images/aa6.webp" alt="" />
             <img src="/images/aa7.webp" alt="" />
-            <img src="/images/aa8.webp" alt="" />
+            <img src="/images/sword.jpg" alt="" />
           </div>
         </div>
       </div>
