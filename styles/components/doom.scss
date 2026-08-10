@@ -151,10 +151,10 @@
       min-height: 30rem;
     }
   }
+}
 
-  .community-reaction-label {
-    margin-bottom: 4rem;
-  }
+.community-reaction-panel .community-reaction-label {
+  margin-bottom: 4rem;
 }
 
 .doom_results_column--right {
@@ -478,7 +478,7 @@
   flex-direction: column;
   align-items: flex-end;
   justify-content: center;
-  gap: 0.4rem;
+  gap: 12px;
   margin-left: auto;
   height: 100%;
 }
@@ -488,26 +488,72 @@
   flex-direction: row;
   align-items: center;
   justify-content: flex-end;
-  gap: 4rem;
+  gap: 23px;
   margin-left: auto;
   flex: 1;
   height: 100%;
+}
 
-  @include media("<phone") {
-    gap: 2.4rem;
+.wwm_results_platforms .doom_results_social_text.wwm_results_social_stat {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  gap: 0.4rem;
+  flex-shrink: 0;
+}
+
+.wwm_results_platforms .wwm_results_social_stat .doom_results_social_value,
+.wwm_results_platforms .wwm_results_social_stat .doom_results_social_label {
+  text-align: left;
+}
+
+.wwm_results_grid {
+  .doom_results_column--left {
+    @include media(">=phone") {
+      .doom_results_stat {
+        min-height: unset;
+      }
+    }
   }
 }
 
-.wwm_results_platforms .wwm_results_platform_metrics--stacked .doom_results_social_text,
-.wwm_results_platforms .wwm_results_platform_metrics--row .doom_results_social_text {
-  align-items: flex-end;
-  text-align: right;
-  gap: 0.2rem;
+.wwm_results_total_campaign {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 100%;
+  flex: 1;
+  min-height: 0;
+
+  @include media(">=phone") {
+    height: 100%;
+  }
 }
 
-.wwm_results_platforms .wwm_results_platform_metrics--row .doom_results_social_value,
-.wwm_results_platforms .wwm_results_platform_metrics--row .doom_results_social_label,
-.wwm_results_platforms .wwm_results_platform_metrics--stacked .doom_results_social_value,
-.wwm_results_platforms .wwm_results_platform_metrics--stacked .doom_results_social_label {
-  text-align: right;
+.wwm_results_total_campaign_stats {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  flex: 1;
+  min-height: 0;
+}
+
+.wwm_results_total_campaign_stat {
+  border: 1px solid #212121;
+  flex: 1;
+  min-height: 16rem;
+
+  @include media(">=phone") {
+    min-height: 0;
+    padding: 6.4rem 2rem;
+  }
+
+  p {
+    max-width: 36rem;
+    opacity: 0.64;
+  }
+}
+
+.wwm_results_total_campaign .wwm_results_total_campaign_stat {
+  background: #000;
 }

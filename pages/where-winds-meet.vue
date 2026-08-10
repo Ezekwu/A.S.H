@@ -126,16 +126,81 @@
           <span class="assassin_span">]</span>
         </h2>
 
-        <div class="doom_results_grid">
+        <div class="doom_results_grid wwm_results_grid">
           <div class="doom_results_column doom_results_column--left">
-            <div class="doom_results_stat cf">
-              <h2><span class="plus-sign">+</span>5.2M</h2>
-              <p>Total campaign views across <br> all creators & platforms.</p>
+            <div class="doom_results_panel wwm_results_total_campaign">
+              <h3 class="doom_results_panel_label">
+                <span class="assassin_span">[</span>
+                TOTAL CAMPAIGN
+                <span class="assassin_span">]</span>
+              </h3>
+              <div class="wwm_results_total_campaign_stats">
+                <div class="doom_results_stat cf wwm_results_total_campaign_stat">
+                  <h2><span class="plus-sign">+</span>5.2M</h2>
+                  <p>
+                    Total campaign views across all creators &amp; platforms.
+                  </p>
+                </div>
+                <div class="doom_results_stat cf wwm_results_total_campaign_stat">
+                  <h2><span class="plus-sign">+</span>70.1K</h2>
+                  <p>
+                    Total campaign likes across all creators &amp; platforms.
+                  </p>
+                </div>
+              </div>
             </div>
+          </div>
 
-            <div class="doom_results_stat cf">
-              <h2><span class="plus-sign">+</span>70.1K</h2>
-              <p>Total campaign likes across <br> all creators & platforms.</p>
+          <div class="doom_results_column doom_results_column--right">
+            <div class="doom_results_panel">
+              <h3 class="doom_results_panel_label total-campaign-views-label">
+                <span class="assassin_span">[</span>
+                CAMPAIGN ACROSS PLATFORMS
+                <span class="assassin_span">]</span>
+              </h3>
+              <div class="doom_results_socials wwm_results_platforms">
+                <div class="doom_results_social doom_results_social--tiktok">
+                  <img src="/images/tiktok-colored.svg" alt="TikTok" />
+                  <div class="wwm_results_platform_metrics wwm_results_platform_metrics--stacked">
+                    <div class="doom_results_social_text wwm_results_social_stat">
+                      <p class="doom_results_social_value">+1.4M</p>
+                      <p class="doom_results_social_label">Views</p>
+                    </div>
+                    <div class="doom_results_social_text wwm_results_social_stat">
+                      <p class="doom_results_social_value">+21K</p>
+                      <p class="doom_results_social_label">Likes</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="doom_results_social doom_results_social--instagram">
+                  <img src="/images/instagram.svg" alt="Instagram" />
+                  <div class="wwm_results_platform_metrics wwm_results_platform_metrics--stacked">
+                    <div class="doom_results_social_text wwm_results_social_stat">
+                      <p class="doom_results_social_value">+2.8M</p>
+                      <p class="doom_results_social_label">Views</p>
+                    </div>
+                    <div class="doom_results_social_text wwm_results_social_stat">
+                      <p class="doom_results_social_value">+22K</p>
+                      <p class="doom_results_social_label">Likes</p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="doom_results_social doom_results_social--youtube wwm_results_platform--full"
+                >
+                  <img src="/images/youtube.svg" alt="YouTube" />
+                  <div class="wwm_results_platform_metrics wwm_results_platform_metrics--row">
+                    <div class="doom_results_social_text wwm_results_social_stat">
+                      <p class="doom_results_social_value">+1M</p>
+                      <p class="doom_results_social_label">Views</p>
+                    </div>
+                    <div class="doom_results_social_text wwm_results_social_stat">
+                      <p class="doom_results_social_value">+28K</p>
+                      <p class="doom_results_social_label">Likes</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
 
             <div class="doom_results_panel community-reaction-panel">
@@ -158,60 +223,20 @@
               />
             </div>
           </div>
-
-          <div class="doom_results_column doom_results_column--right">
-            <div class="doom_results_panel">
-              <h3 class="doom_results_panel_label total-campaign-views-label">
-                <span class="assassin_span">[</span>
-                CAMPAIGN ACROSS PLATFORMS
-                <span class="assassin_span">]</span>
-              </h3>
-              <div class="doom_results_socials wwm_results_platforms">
-                <div class="doom_results_social doom_results_social--tiktok">
-                  <img src="/images/tiktok-colored.svg" alt="TikTok" />
-                  <div class="wwm_results_platform_metrics wwm_results_platform_metrics--stacked">
-                    <div class="doom_results_social_text">
-                      <p class="doom_results_social_value">+1.4M</p>
-                      <p class="doom_results_social_label">Views</p>
-                    </div>
-                    <div class="doom_results_social_text">
-                      <p class="doom_results_social_value">+21K</p>
-                      <p class="doom_results_social_label">Likes</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="doom_results_social doom_results_social--instagram">
-                  <img src="/images/instagram.svg" alt="Instagram" />
-                  <div class="wwm_results_platform_metrics wwm_results_platform_metrics--stacked">
-                    <div class="doom_results_social_text">
-                      <p class="doom_results_social_value">+2.8M</p>
-                      <p class="doom_results_social_label">Views</p>
-                    </div>
-                    <div class="doom_results_social_text">
-                      <p class="doom_results_social_value">+22K</p>
-                      <p class="doom_results_social_label">Likes</p>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  class="doom_results_social doom_results_social--youtube wwm_results_platform--full"
-                >
-                  <img src="/images/youtube.svg" alt="YouTube" />
-                  <div class="wwm_results_platform_metrics wwm_results_platform_metrics--row">
-                    <div class="doom_results_social_text">
-                      <p class="doom_results_social_value">+1M</p>
-                      <p class="doom_results_social_label">Views</p>
-                    </div>
-                    <div class="doom_results_social_text">
-                      <p class="doom_results_social_value">+28K</p>
-                      <p class="doom_results_social_label">Likes</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
+      </div>
+
+        <div class="assassin_images_category">
+        <img
+          src="/images/slashing-through-two-water-melons.webp"
+          alt="Slashing through two water melons"
+          data-desktop
+        />
+        <img
+          src="/images/slashing-through-two-water-melons.webp"
+          alt="Slashing through two water melons"
+          data-mobile
+        />
       </div>
 
       <div class="section-flex doom_learnings_flex">
@@ -234,12 +259,12 @@
 
       <div class="assassin_images_category">
         <img
-          src="/images/blacksmith-with-sledge-hammer.webp"
+          src="/images/cleaning-sword-sheath.jpg"
           alt=""
           data-desktop
         />
         <img
-          src="/images/blacksmith-with-sledge-hammer.webp"
+          src="/images/cleaning-sword-sheath.jpg"
           alt=""
           data-mobile
         />
