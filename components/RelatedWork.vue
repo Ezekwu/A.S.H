@@ -46,6 +46,11 @@ const relatedItems: RelatedItem[] = [
     title: 'NARAKA: BLADEPOINT',
   },
   {
+    href: '/where-winds-meet',
+    imageSrc: '/images/two-men-forging-sword.webp',
+    title: 'Where Winds Meet',
+  },
+  {
     href: '/doom-the-dark-ages',
     imageSrc: '/images/doom-of-the-dark-ages-work.webp',
     title: 'Doom: The Dark Ages',

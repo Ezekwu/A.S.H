@@ -21,8 +21,8 @@ export const TEAM_MEMBERS: Record<string, TeamMember> = {
     slug: "brendan-kennedy",
     name: "Brendan Kennedy",
     title: "Co-Founder/Executive Producer",
-    image: "/images/j2.webp",
-    // detailPage: true,
+    image: "/images/Brendan.webp",
+    detailPage: true,
     background: [
       "Brendan Kennedy is a producer and director with over 10 years of experience delivering video production across video game marketing, esports, and branded content. As CoFounder of ASH Entertainment, he leads the company's video production services alongside Co-Founder and Head of Business Development Dat Tran.",
       "He has a demonstrated history of working in the digital branded content world, having worked at Riot Games and produced content for Activision Blizzard, Bethesda, 2K, HoYoverse, and Krafton Games, among others. His experience in the gaming community has given him valuable insight into what players are looking for.",
@@ -34,9 +34,9 @@ export const TEAM_MEMBERS: Record<string, TeamMember> = {
     slug: "dat-tran",
     name: "Dat Tran",
     title: "Co-Founder/Head of Business Dev",
-    image: "/images/j3.webp",
+    image: "/images/Dat.webp",
     detailedImage: "/images/dat-colored.webp",
-    // detailPage: true,
+    detailPage: true,
       
     background: [
       "Dat Tran is a producer and business development executive with over 10 years of experience delivering video production across music, gaming, and branded content. As Co-Founder of ASH Entertainment, he leads the company's video production services alongside Co-Founder and Executive Producer Brendan Kennedy, bringing a unique blend of traditional media and Hollywood studio experience to build an independent, creator-driven model grounded in real industry insight.",
@@ -52,7 +52,7 @@ export const TEAM_MEMBERS_LIST: TeamMember[] = [
     slug: "kerry-stagmer",
     name: "Kerry Stagmer",
     title: "Co-Founder/CEO",
-    image: "/images/j1.webp",
+    image: "/images/kerry.webp",
     externalLink: "https://baltimoreknifeandsword.com/kerry",
   },
   TEAM_MEMBERS["brendan-kennedy"],
@@ -61,13 +61,19 @@ export const TEAM_MEMBERS_LIST: TeamMember[] = [
     slug: "mahendra-khera",
     name: "Mahendra Khera",
     title: "Producer/Editor",
-    image: "/images/j4.webp",
+    image: "/images/mahendra.webp",
   },
   {
     slug: "cate-barry",
     name: "Cate Barry",
     title: "Administrative Assistant",
-    image: "/images/j5.webp",
+    image: "/images/cate.webp",
+  },
+  {
+    slug: "paulius-kontijevas",
+    name: "Paulius Kontijevas",
+    title: "Director of Photography",
+    image: "/images/paulius.webp",
   },
 ];
 
