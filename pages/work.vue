@@ -135,7 +135,7 @@
             <h4 class="readmore"><span>[</span>READ MORE <span>]</span></h4>
           </div>
         </div>
-      </NuxtLink>
+      </NuxtLink>e
     </div>
     <Contact />
     <Footer />
