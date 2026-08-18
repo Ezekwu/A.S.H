@@ -101,6 +101,7 @@
           </div>
         </div>
       </NuxtLink>
+    
       <NuxtLink href="/albion-online">
         <div class="case_one">
           <div class="brand_div">
@@ -118,6 +119,23 @@
           </div>
         </div>
       </NuxtLink>
+        <NuxtLink href="/where-winds-meet">
+        <div class="case_one">
+          <div class="brand_div">
+            <h5>Brand</h5>
+            <p>NetEase Games</p>
+          </div>
+          <h3>Where Winds <br /><span class="shadows">Meet</span></h3>
+          <div class="readmore_div">
+            <img
+              src="/images/wwm-popup-image.webp"
+              alt="Where Winds Meet"
+              class="k"
+            />
+            <h4 class="readmore"><span>[</span>READ MORE <span>]</span></h4>
+          </div>
+        </div>
+      </NuxtLink>e
     </div>
     <Contact />
     <Footer />

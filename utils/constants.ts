@@ -178,6 +178,46 @@ export const ZENLESS_ZERO_EXECUTION_TAKEAWAYS = [
     title: "ARTSHOULD HURT-AND DELIVER:",
     description: "ASH combines cinematic craft with marketing precision to create inspiring campaigns for fans by fans. Our deep industry connections and understanding of the culture generate measurable brand value."
   },
-]
+];
 
+export const WHERE_WINDS_MEET_EXECUTION_HIGHLIGHTS = [
+  {
+    title: "Man at Arms Episode:",
+    description:
+      "Full-length episode of Man at Arms: Reforged demonstrating the complete Heng Blade build from raw steel to finished weapon.",
+  },
+  {
+    title: "Talent Sourcing:",
+    description:
+      "ASH sourced and coordinated US-based creators on behalf of NetEase Games, serving as the campaign's domestic talent partner.",
+  },
+  {
+    title: "SHORT-FORM SERIES:",
+    description:
+      "6 total videos produced by ASH across YouTube, Instagram, and TikTok, designed for platform-native reach.",
+  },
+  {
+    title: "COMMUNITY ACTIVATION:",
+    description:
+      "The #AnythingCanBeHengBlade challenge ignited community participation, with creators and fans producing original content inspired by the Heng Blade across all major platforms.",
+  },
+];
+
+export const WHERE_WINDS_MEET_LEARNINGS = [
+  {
+    title: "ONE SPARK, MANY FIRES:",
+    description:
+      "When hero content is designed to trigger participation, a single build becomes the launchpad for an entire campaign.",
+  },
+  {
+    title: "NETWORK AS INFRASTRUCTURE:",
+    description:
+      "ASH's talent network gave NetEase Games access to vetted, US-based creators without the overhead of sourcing them independently. One partner. Full activation.",
+  },
+  {
+    title: "CRAFT AS LANGUAGE:",
+    description:
+      "The Heng Blade possesses a deep, historical aura that resonated across gaming, history, and creator audiences worldwide. Quality production earns attention from communities that ads alone can't reach.",
+  },
+];
 
