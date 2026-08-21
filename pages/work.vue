@@ -119,7 +119,7 @@
           </div>
         </div>
       </NuxtLink>
-        <NuxtLink href="/where-winds-meet">
+      <!-- <NuxtLink href="/where-winds-meet">
         <div class="case_one">
           <div class="brand_div">
             <h5>Brand</h5>
@@ -135,7 +135,7 @@
             <h4 class="readmore"><span>[</span>READ MORE <span>]</span></h4>
           </div>
         </div>
-      </NuxtLink>e
+      </NuxtLink> -->
     </div>
     <Contact />
     <Footer />
