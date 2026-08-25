@@ -5,7 +5,7 @@
         <img src="/images/artsvg.svg" alt="" />
       </NuxtLink>
       <div>
-        <NuxtLink href="https://www.instagram.com/awemechannel" target="_blank">
+        <NuxtLink href="https://www.instagram.com/manatarmsreforged" target="_blank">
           <img src="/images/InstagramLogo.svg" alt="" />
         </NuxtLink>
         <NuxtLink
