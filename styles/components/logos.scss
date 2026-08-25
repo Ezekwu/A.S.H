@@ -1,15 +1,15 @@
 .logo {
-  background: #171717;
+  background: #000;
   display: flex;
   width: 151.2rem;
-  padding: 10.4rem 0 21.5rem 0;
+  padding: 10.4rem 0 21.5rem;
   flex-direction: column;
   align-items: center;
   gap: 15.1rem;
-  aspect-ratio: 151/74;
+
   @include media("<phone") {
     width: 39rem;
-    padding: 6.8rem 2rem 7.45rem 2rem;
+    padding: 6.8rem 2rem 7.45rem;
     gap: 8rem;
   }
 }
@@ -20,14 +20,11 @@
   font-size: 4.8rem;
   font-style: normal;
   font-weight: 600;
-  line-height: 100%; /* 4.8rem */
+  line-height: 100%;
   letter-spacing: -0.096rem;
+
   @include media("<phone") {
-    color: #fff;
-    font-family: "Haas Grot Disp Trial";
     font-size: 3.2rem;
-    font-style: normal;
-    line-height: 100%; /* 3.2rem */
     letter-spacing: -0.064rem;
   }
 }
@@ -37,150 +34,208 @@
   flex-direction: column;
   align-items: center;
   gap: 7.8rem;
+  width: 100%;
+
   @include media("<phone") {
     gap: 5.1rem;
   }
 }
 
-.logo_logo > div {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 9.2rem;
-
-  @include media("<phone") {
-    // display: inline-flex;
-    flex-wrap: wrap;
-    gap: 5.7rem;
-  }
-}
-
-[data-mobile] {
-  display: none;
-  @include media("<phone") {
-    display: block;
-  }
-}
-
-[data-desktop] {
-  display: block;
+.logo_logo--desktop {
   @include media("<phone") {
     display: none;
   }
 }
 
+.logo_logo--mobile {
+  display: none;
+
+  @include media("<phone") {
+    display: flex;
+  }
+}
+
+.logo_row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 9.2rem;
+  width: 100%;
+
+  @include media("<phone") {
+    gap: 5.7rem;
+  }
+}
+
+.logo_row--2 {
+  @include media("<phone") {
+    gap: 8rem;
+  }
+}
+
 .logo_img {
-  width: 12.0408rem;
-  height: auto;
+  display: block;
+  height: 7rem;
+  width: auto;
+  max-width: 20.2rem;
+  object-fit: contain;
+  filter: brightness(0) saturate(100%) invert(73%) sepia(0%) saturate(0%)
+    hue-rotate(0deg) brightness(100%) contrast(90%);
+
   @include media("<phone") {
-    width: 7.7939rem;
+    height: 4rem;
+    max-width: 10rem;
   }
 }
 
-.l1 > img:nth-of-type(1) {
-  width: 8.0463rem;
+.logo_img--ubisoft {
   height: 7.3455rem;
+  max-width: 8.0463rem;
+
   @include media("<phone") {
-    width: 4.0891rem;
     height: 3.6196rem;
+    max-width: 4.0891rem;
   }
 }
-.l1 > img:nth-of-type(2) {
-  width: 17.9rem;
+
+.logo_img--netease {
   height: 6.4rem;
+  max-width: 17.9rem;
+
   @include media("<phone") {
-    width: 9.8rem;
     height: 3.5rem;
+    max-width: 9.8rem;
   }
 }
-.l1 > img:nth-of-type(3) {
-  width: 12.728rem;
+
+.logo_img--snail {
   height: 7.4rem;
+  max-width: 12.728rem;
+
   @include media("<phone") {
-    width: 6.6165rem;
     height: 3.8468rem;
+    max-width: 6.6165rem;
   }
 }
-.l1 > img:nth-of-type(4) {
-  width: 20.2rem;
+
+.logo_img--hoyoverse {
   height: 6.5rem;
+  max-width: 20.2rem;
+
   @include media("<phone") {
-    width: 9.9rem;
     height: 3.2rem;
+    max-width: 9.9rem;
   }
 }
-.l1 > img:nth-of-type(5) {
-  width: 8.6308rem;
+
+.logo_img--plarium {
   height: 6.4286rem;
+  max-width: 8.6308rem;
+
   @include media("<phone") {
-    width: 4.2646rem;
     height: 3.1633rem;
+    max-width: 4.2646rem;
   }
 }
-.l2 > img:nth-of-type(1) {
-  width: 10.1471rem;
+
+.logo_img--gearbox {
   height: 7.2479rem;
+  max-width: 10.1471rem;
+
   @include media("<phone") {
-    width: 6.0882rem;
     height: 4.3896rem;
+    max-width: 6.0882rem;
   }
 }
-.l2 > img:nth-of-type(2) {
-  width: 7.3455rem;
+
+.logo_img--zynga {
   height: 6.8441rem;
+  max-width: 7.3455rem;
+
   @include media("<phone") {
-    width: 4.0808rem;
     height: 3.8817rem;
+    max-width: 4.0808rem;
   }
 }
-.l2 > img:nth-of-type(3) {
-  width: 13.9683rem;
+
+.logo_img--bethesda {
   height: 6.5684rem;
+  max-width: 13.9683rem;
+
   @include media("<phone") {
-    width: 7.7939rem;
     height: 3.6947rem;
+    max-width: 7.7939rem;
   }
 }
-.l2 > img:nth-of-type(4) {
-  width: 13rem;
+
+.logo_img--amazon-games {
   height: 7rem;
+  max-width: 13rem;
+
   @include media("<phone") {
-    width: 5.9rem;
     height: 3.2rem;
-  }
-}
-.l2 > img:nth-of-type(5) {
-  width: 7rem;
-  height: 7rem;
-  @include media("<phone") {
-    width: 3.6rem;
-    height: 3.6rem;
+    max-width: 5.9rem;
   }
 }
 
-.l1 > img:nth-of-type(6) {
-  width: 7rem;
+.logo_img--ea,
+.logo_img--xbox {
   height: 7rem;
-  @include media("<phone") {
-    width: 3.6rem;
-    height: 3.6rem;
-  }
-}
+  max-width: 7rem;
 
-.l2 > img:nth-of-type(6) {
-  width: 8.3rem;
-  height: 7.1rem;
   @include media("<phone") {
-    width: 4rem;
     height: 3.5rem;
+    max-width: 4rem;
   }
 }
 
-.l2 > img:nth-of-type(7) {
-  width: 7rem;
-  height: 7rem;
+.logo_img--blizzard {
+  height: 7.1rem;
+  max-width: 8.3rem;
+
   @include media("<phone") {
-    width: 4.2646rem;
-    height: 3.1633rem;
+    height: 2.7rem;
+    max-width: 5.7rem;
+  }
+}
+
+.logo_img--facepunch {
+  height: 7rem;
+  max-width: 20rem;
+
+  @include media("<phone") {
+    height: 4rem;
+    max-width: 11rem;
+  }
+}
+
+.logo_img--konami {
+  height: 6.5rem;
+  max-width: 14rem;
+
+  @include media("<phone") {
+    height: 2.1rem;
+    max-width: 9rem;
+  }
+}
+
+.logo_img--rr {
+  height: 4rem;
+  max-width: 4rem;
+
+  @include media("<phone") {
+    height: 3.6rem;
+    max-width: 3.6rem;
+  }
+}
+
+.logo_img--bohemia {
+  height: 6rem;
+  max-width: 17rem;
+
+  @include media("<phone") {
+    height: 3.5rem;
+    max-width: 9.5rem;
   }
 }
